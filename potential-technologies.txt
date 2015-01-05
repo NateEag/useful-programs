@@ -1,0 +1,510 @@
+Nate Eagleson
+
+I'm a technologist.
+
+Sometimes, I hear about technology I think I should probably investigate but
+don't have time to look into right away.
+
+I put those here.
+
+
+-dnsmasq is a tool I've wanted for quite a long time. It is a lightweight DNS
+ proxy/DHCP server, mainly meant to let you easily assign names to local
+ machines behind a NATted firewall. It also makes "lying" about DNS when behind
+ the firewall running it pretty easy, something that would have been quite
+ handy for PEDG's VPN setup. Shoutout to Josh Turmel for pointing me to it.
+
+
+-For AJAXy websites, I rather like the idea of spin.js, as it is much lighter
+ than animated GIFs/PNGs (especially if you need multiple sizes), and works in
+ a wide array of browsers. http://fgnass.github.com/spin.js/
+
+
+-Many programs and systems do not support Unicode correctly (or at all). When
+ you need to work with them in Python, unidecode is (probably) a useful module.
+ http://www.tablix.org/~avian/git/unidecode.git
+
+
+-Ext JS is a framework Adam mentioned to me for doing MVC-style JS. Since MVC
+ actually does belong on the client side, I thought it sounded interesting, and
+ it has some fairly impressive tech demos:
+ http://www.sencha.com/products/extjs/ Might be worth investigating at some
+ point.
+
+
+-puppet seems like an excellent open-source tool for server configuration
+ management, particularly when facing large deployments. I have not yet had a
+ chance to try playing with it, but it looks from the outside like it would be
+ an excellent tool for keeping multiple server images synchronized.
+ http://puppetlabs.com/ The major competition is cfengine, Chef, Ansible, and
+ running a package manager for your projects
+ (http://news.ycombinator.com/item?id=3091407).
+
+
+-nix is a functional package manager, with most of the features I've been
+ wanting. There's also a Linux distro built on top of it.
+ http://nixos.org/nix/
+
+
+-Stripe is a ycombinator startup that does payment processing for geeks:
+ https://stripe.com/
+
+
+-CookieSwap is an old FF plugin to let you store different sets of cookies for
+ the same domain and flip between them. I was wishing it existed, for web
+ development, so I went looking. Sadly, it appears to only work for 1.5 and 2,
+ but I should test it, and/or see how hard it is to update.
+ http://cookieswap.mozdev.org/
+
+
+-virtualenv is a Python tool for letting you have multiple distinct Python
+ environments, fully insulated from each other. That sounds like something I
+ should really wrap my brain around.
+
+
+-http://lesscss.org/ is a CSS generation tool that gives you variables, nested
+ selectors, and other such niceties. It is written in JavaScript, and can be
+ used with a server-side once-and-done rendering approach (sounds good for
+ releases), or with a dynamically-parsed-in-JS-by-includes approach (good for
+ development sandboxes). Years later, I think Sass is probably better.
+
+
+-http://www.bacula.org/en/ is a backup system that Spencer recommends. It's
+ open source and fairly industrial-strength, he says.
+
+
+-Fabric is a Python module for automating tasks over SSH. Not quite like a
+ configuration management tool, but still worth knowing about, I suppose.
+ http://docs.fabfile.org/en/1.4.1/index.html
+
+
+-xfst is a Unix-based tool from Xerox PARC that is a sort of competitor to
+ regular expressions. Consider checking it out someday when I have too much
+ free time. http://www.cis.upenn.edu/~cis639/docs/xfst.html
+
+
+-supervisord is a Python process control system. Might be worth checking out at
+ some point. http://supervisord.org/
+
+
+-emacsy is a not-yet-existent system for embedding an Emacs-ish approach to
+ user interface creation in arbitrary binaries:
+ https://github.com/secelis/emacsy
+
+
+-http://amoffat.github.com/sh/ is a python module for handling subprocesses. It
+ appears to suck much less than subprocess.
+
+
+-fail2ban is something I should probably have installed on any web-facing
+ servers I admin. It auto-bans IPs that look like they're abusing the system,
+ via iptables. http://www.fail2ban.org/wiki/index.php/Main_Page
+
+
+-SchemaSpy looks at your schemas and makes a navigable HTML docs page, complete
+ with diagrams of the DB. I would very much like to integrate it with git's
+ post-receive hook to have an auto-updated page on project dev sites that
+ outlines the schema as it is in, say, master.
+
+
+-history.js provides an AJAX history interface that uses new HTML 5 pushState
+ when present, and defaults to the classic old # URL changes when not. It even
+ lets you store data with each state.
+ https://github.com/browserstate/history.js
+
+
+-http://qafoolabs.github.io/php-refactoring-browser/ is a refactoring tool for
+ PHP. Doesn't seem to be very far along yet, but it might be handy at some
+ point, especially if integrated with Emacs and php-mode.
+
+
+-csscss detects duplicate declarations in CSS files. Might be very handy.
+ http://zmoazeni.github.io/csscss/?hn=1
+
+
+-requests is a Python library for speaking HTTP that gets rave reviews:
+ http://docs.python-requests.org/en/latest/
+
+
+-Twig.js compiles Twig templates into JS. Could be great for AJAX-heavy apps,
+ if you have model templates.
+
+
+-Bugs Everywhere is a distributed bug tracker that apparently has support for
+ a central instance? If it's good, it might save me having to write it:
+ http://bugseverywhere.org/
+
+
+-jQuery Migrate is for migrating apps built around old jQueries to newer ones, while maintaining some methods/plugins not in the new builds that you might need for your legacy app: https://github.com/jquery/jquery-migrate/
+
+
+-I'd like a clean way to install a lot of githooks in parallel. Looks like
+ https://github.com/icefox/git-hooks might just do the job.
+
+
+-bower is a front-end package manager, which might be worth investigating.
+ https://github.com/bower/bower
+
+
+-box is a program that helps you build .phars: http://box-project.org/
+
+
+-boris is a nice-looking PHP REPL that doesn't work on Windows:
+ https://github.com/d11wtq/boris
+
+
+-zipkin is something Twitter uses for high-volume, time-oriented debug tracing.
+ http://twitter.github.io/zipkin/
+
+
+-Google Maps has some built-in tech for doing heatmaps:
+ https://developers.google.com/maps/documentation/javascript/layers#JSHeatMaps
+
+
+-There is finally an open-source library for working with PSDs. It's in Ruby,
+ but it's still about the only game in town:
+ https://github.com/layervault/psd.rb
+
+
+-gitslave is another attempt to solve the submodule problem.
+ http://gitslave.sourceforge.net/
+
+
+-https://phpids.org is a library for auto-detecting and acting on suspicious
+ input from end-users. Think of it as a customizable fail2ban sort of tool.
+
+
+-http://phpsec.org/projects/phpsecinfo/ is PHP info for security. Not much
+ help, but it's something.
+
+
+-ungit is a pretty novice-friendly Git UI. It might be an *excellent* basis for
+ building the git tutorial system I wish existed, and also for building my
+ "rebase entire subtrees by dragging" feature I wish existed. It already has
+ single-branch rebases, so maybe it already can handle trees?
+
+
+-Amphetype looks like it might be a decent free typing trainer. Darn hard
+ to find one of those... https://code.google.com/p/amphetype/
+
+
+-Everyone needs SVG in JS. I'm not exactly sure how this relates to a browser's
+ SVG support, but it might come in handy someday regardless: http://svgjs.com/
+
+
+-Style guidelines for CSS, which look decent:
+ https://github.com/necolas/idiomatic-css
+
+
+-Style guidelines for JS which look decent:
+ https://github.com/rwaldron/idiomatic.js/
+
+
+-git-deploy is a robust-looking git-oriented deployment tool I would like to
+ try out someday: https://github.com/git-deploy/git-deploy
+
+
+-phabricator looks like a decent, open-source suite of software for
+ collaborating on software projects. No groundbreaking ideas, but if it
+ delivers the basics sanely, that'd beat most systems hands-down. Written in
+ PHP by an ex-FB employee: http://phabricator.org/
+
+
+-BuildBot is an open-source tool for automating builds, tests, and releases:
+ http://buildbot.net/index.html
+
+
+-statsd is an open-source daemon you can use for tracking stats with almost
+ zero impact on app performance, thanks to the power of UDP and not caring if
+ you miss an update here or there.
+
+
+-Chocolatey is a tool that might help with provisioning Windows boxes:
+ https://chocolatey.org/
+
+
+-https://github.com/hakimel/reveal.js is a nifty framework for doing
+ presentations in HTML/JS.
+
+
+-PHP SQL query construction library: https://github.com/auraphp/Aura.Sql_Query
+ Requires 5.4.
+
+
+-PHP HTTP request lib that looks promising: http://requests.ryanmccue.info/
+
+
+-FontForge could be useful if I'm ever trying to design a font.
+ That's not too likely, but could happen if I need an icon font.
+ http://fontforge.org/
+
+
+-Mailcheck is a JS plugin to check for typos in an email address's domain.
+ Should be great for cutting down on signup bounces.
+ https://github.com/Kicksend/mailcheck
+
+
+-Not actually a library, but another clever idea for confirming whether an
+ email address exists - as part of your validation, look up the mailserver and
+ ask it for a receipt for the mailbox. Apparently Exchange doesn't do this in
+ a compatible way, but if you addressed that and combined this with the above,
+ you'd be able to catch a whole lot of mistakes before they were made.
+ http://www.webdigi.co.uk/blog/2009/how-to-check-if-an-email-address-exists-without-sending-an-email/
+
+
+-Tool for working with CSVs in PHP, with a particular eye to doing low-memory
+ usage imports to a DB: https://github.com/goodby/csv
+
+
+-cssbeautify is a node.js-based tool for cleaning up stylesheet formatting.
+ It doesn't indent comments correctly, and it doesn't support in-place updates,
+ but it sure beats nothing. https://github.com/senchalabs/cssbeautify
+
+
+-cssprefixer is a CSS processor that saves the need to write out all the
+ browser-specific prefixes for not-yet-widely-supported prefixes. Not sure I
+ want to use this particular tool just yet, but that functionality might be a
+ nice addition to SCSS, as it'd be cleaner than using mixins for the same
+ purpose. http://cssprefixer.appspot.com/
+
+
+-http://caniuse.com/ is the lookup table of "what browsers support this
+ feature?" that I've wanted for years. The data driving it is on GitHub,
+ which I have cloned Just In Case.
+
+
+-http://html5please.com/ is related to caniuse.com, but is a bit more
+ full-featured. It suggests alternatives for browsers that don't have the
+ feature you're looking at.
+
+
+-presto is Facebook's data warehousing backend:
+ http://prestodb.io/
+
+
+-Liquibase is a Java tool for refactoring DBs and tracking the structural
+ changes. It is Java, but it might just be the general-purpose tool I've been
+ looking for, since you could use it with raw SQL, and without configuring an
+ ORM.
+ http://www.liquibase.org/
+
+
+-ruckusing-migrations is a PHP library for handling DB migrations.
+ https://github.com/ruckus/ruckusing-migrations
+
+
+-Stripe offers an open-source jQuery plugin for building credit card processing
+ forms. It seems very solid:
+ https://github.com/stripe/jquery.payment
+
+
+-Yahoo has a JS-based tool for measuring perceived performance. Having seen a
+ little of what Google Analytics can do, I'm not sure this would ever be
+ necessary, but it might be worth looking into sometime:
+ https://github.com/yahoo/boomerang
+
+
+-A media lightboxing tool with markup that degrades quite well (and apparently
+ works back to IE 6):
+ http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/
+
+
+-js-beautify is a library for formatting JS, CSS, and HTML. I should give it a
+ trial run some time.
+ https://github.com/einars/js-beautify
+
+
+-timeago is a jQuery plugin for fuzzy dates in webpages.
+ http://timeago.yarp.com/
+
+
+-appserver is the new PHP answer to gunicorn and the like - multithreaded
+ server written in PHP. http://www.appserver.io/
+
+
+-appserver is built on krakjoe/pthreads, which appears to have Windows support.
+ This should mean, in principle, that I can get things like boris (which
+ requires POSIX threads) working. It also means I may have some infrastructure
+ that might work for my hypothetical PHP code assistance daemon.
+
+
+-lftp is, apparently, a very powerful open-source file transfer tool.
+ http://lftp.yar.ru/
+
+
+-Piwik is the open-source answer to Google Analytics. I may try using it for a
+ future project or two, but I should probably compare to GA first so I can be
+ aware of what I am or am not missing. http://piwik.org/
+
+
+-ExifTool is a Swiss-Army chainsaw for image metadata (command-line tool and
+ library). It is, appropriately enough, written in the Swiss-Army chainsaw
+ language.
+
+
+-riot.js is a lightweight Model-View-"Presenter" JS framework. Cursory
+ inspection, plus reading of its manifesto blog post, makes me think it would
+ fit my style very nicely.
+ https://moot.it/blog/technology/riotjs-the-1kb-mvp-framework.html and
+ https://github.com/moot/riotjs/
+
+
+-tqdm turns Python iterators into iterators that output a progress prompt.
+ https://github.com/noamraph/tqdm
+
+
+-clrs.cc is a small CSS (and CSS preprocessor) package giving CSS better default
+ colors.
+
+
+-Ink is a framework for making responsive HTML emails, and claims to have
+ good-looking results everywhere, even in Outlook. Having suffered through some
+ HTML email implementation tasks, I'm intrigued.
+
+
+-strace looks *extremely* useful when a live process is misbehaving and you
+ don't know why (especially one you don't have source code to). It traces all
+ system calls/events from the process, so it'd be most useful in a system
+ programmer's hands, but it might still be handy even for a high-level wuss
+ like me.
+
+
+-forceps is a Ruby gem for pulling down a specific entity's data and all
+ dependencies, specifically for debugging obscure problems. I don't use Ruby,
+ but I've wanted this before, so if I need it again, this might be a place to
+ start, just to understand the problem domain better.
+ https://github.com/jorgemanrubia/forceps
+
+
+-omnipay is a PHP CC processing gateway API wrapper that handles a LOT of
+ different gateways. https://github.com/omnipay/omnipay
+
+
+-watchman is for watching files and doing something when they change.
+ https://github.com/facebook/watchman
+
+
+-bleach is a Python library for cleaning up HTML
+ https://github.com/jsocol/bleach
+
+
+-gor is a tool for capturing and replaying HTTP requests from prod.
+ https://github.com/buger/gor
+
+
+-multiline is a cute hack to get multiline strings in JS. ES 6 will have them
+ natively, and they aren't necessary, but it would clean things up a bit, in
+ theory.
+ https://github.com/sindresorhus/multiline
+
+
+-Responsive tables? tablesaw to the rescue!
+ https://github.com/filamentgroup/tablesaw
+
+
+-uncss is a node.js tool for finding unused CSS selectors:
+ https://github.com/giakki/uncss
+
+
+-gogs is a git repository viewer written in Go, and thus hopefully installable
+ via binary fairly easily: https://github.com/gogits/gogs
+
+
+-docopt is a standard for turning a command-line app's help string into an
+ argument parser. It works for several languages, including Python, Ruby,
+ JavaScript, PHP, and Go:
+ http://docopt.org/
+
+
+-BFG Repo Cleaner is a simpler way to nuke data from a git repo's history.
+ Having used filter-branch for this job a few times, I wouldn't mind giving it
+ a spin next time I have to do this.
+ http://rtyley.github.io/bfg-repo-cleaner/
+
+
+-jq is a command-line tool for processing JSON the way you'd use awk/sed/grep
+ for text.
+ http://stedolan.github.io/jq/
+
+
+-CSS3PIE is a polyfill to make border-radius, background gradients, and maybe
+ other things work in IE 6-9: http://css3pie.com/
+
+
+-hammer.js is a JS library for handling multi-touch events cleanly. "Can touch
+ this" is the slogan, which probably tells you what it's named for.
+ http://eightmedia.github.io/hammer.js/
+
+
+-Spencer wrote this shell script to bisect within a given commit, for when
+ the bug's in one of those bomb commits:
+ https://gist.github.com/srathbun/9b891162c462fc0ec9ea
+
+
+-OnionShare lets you share files of arbitrary size peer-to-peer. Go Tor.
+ https://github.com/micahflee/onionshare
+
+
+-LearnGitBranching is a nice graphical tutorial that would be great for
+ teaching novices how git works. I wish it actually showed you the contents of
+ files, but that might be expecting a bit much:
+ http://pcottle.github.io/learnGitBranching/
+
+
+-ipfw is a firewall first and foremost, but you can use it for bandwidth
+ throttling, and thus for simulating low-bandwidth connections:
+ http://apple.stackexchange.com/a/46378
+
+
+-lsof is for more than files. -i will let you scan for what's grabbed a
+ port, which is pretty cool.
+
+
+-diffscuss is a format for plain-text diff-based code reviews:
+ https://github.com/hut8labs/diffscuss
+
+
+-Sandstorm is a webapp sandboxing system meant to enable the sort of
+ personal-cloud setup I hope will be feasible for normals someday:
+ https://github.com/sandstorm-io/sandstorm
+
+
+-arrow is an improved(?), unified datetime library for Python. Looks nice.
+
+
+-Bourbon Neat is a SASS grid framework that lets you have really clean markup.
+ Presumably it sacrifices older browsers.
+ http://neat.bourbon.io/
+
+
+-C3.js is a JavaScript charting library built on top of D3.js. No IE 8 support.
+ http://c3js.org/
+
+
+-CodeMirror is an open-source HTML-based text editor. Could be great for
+ giving people "try it out"-style functionality without too much effort:
+ https://github.com/codemirror/CodeMirror/
+
+
+-maim is a command-line tool for taking screenshots on Linux. Paired with an
+ imgur bash uploader (or one to upload to my own hosting), could be a viable
+ replacement for CloudApp. https://github.com/naelstrof/maim
+
+
+-murder uses BitTorrent to deploy things to massive arrays of servers. Not a
+ problem I'm ever likely to have, but a brilliant solution to this problem
+ nonetheless. https://github.com/lg/murder
+
+
+-bup adapts Git's packfile format to a backup system that deduplicates within
+ binary files. Not sure it's ready for prime-time, but it's definitely got
+ potential.
+
+
+-pyenv lets you easily change the active Python version:
+ https://github.com/yyuu/pyenv
+
+
+-airplane-mode provides an API wrapper server that caches responses so you can
+ work offline (for instance, on airplanes).
+ https://github.com/jeremiak/airplane-mode
