@@ -248,6 +248,15 @@ Tool for working with CSVs in PHP, with a particular eye to doing low-memory
 usage imports to a DB: https://github.com/goodby/csv
 
 
+SheetJS lets you process CSVs in the browser, using JS:
+http://sheetjs.com/
+
+
+HandsonTable is an in-browser spreadsheet implementation, useful for letting
+users touch up their CSVs before actually uploading records:
+http://www.handsontable.com/
+
+
 cssbeautify is a node.js-based tool for cleaning up stylesheet formatting.
 It doesn't indent comments correctly, and it doesn't support in-place updates,
 but it sure beats nothing. https://github.com/senchalabs/cssbeautify
