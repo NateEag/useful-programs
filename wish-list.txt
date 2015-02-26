@@ -1,0 +1,14 @@
+Open-source software I wish existed (and would welcome discovering):
+
+A program to filter style/static checker results to only report on changed
+lines in a diff. In-progress at https://github.com/NateEag/diff-check.
+
+A distributed command-line code review system that integrates cleanly with
+native git, with an optional web UI for ease-of-use. It should support tracking a
+branch's entire history (including rebases) without requiring extra
+abstractions (like Gerrit's Changeset-Id). Some haphazard design notes on how
+it might be built are at https://github.com/NateEag/git-revue.
+
+A real-time audio synthesis engine that runs on general-purpose computing
+hardware and intelligently scales up number of simultaneous patches/polyphony
+based on available hardware resources.
