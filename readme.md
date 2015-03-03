@@ -49,6 +49,11 @@ If you have need of templating in PHP, Twig is the way to go, hands-down:
 http://www.twig-project.org/
 
 
+PHP Code Sniffer is a tool for detecting and fixing style violations in PHP
+source code. You can define your own style guidelines.
+https://github.com/squizlabs/PHP_CodeSniffer
+
+
 httrack is a very cool tool for cloning websites for offline viewing that Bob
 just introduced me to: http://www.httrack.com/
 
