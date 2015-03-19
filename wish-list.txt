@@ -1,4 +1,13 @@
-Open-source software I wish existed (and would welcome discovering):
+Software I wish existed and would welcome discovering. I strongly prefer open
+source, but closed source is often better than nothing:
+
+
+A program to run queued tasks when an internet connection becomes active. I
+mainly want this so I can schedule git pushes while working without a
+connection. This one isn't so esoteric - it must be possible, but I am,
+unsurprisingly, writing this desire down while without an internet connection,
+so I can't go looking.
+
 
 A program to filter style/static checker results to only report on changed
 lines in a diff. In-progress at https://github.com/NateEag/diff-check.
