@@ -269,6 +269,17 @@ nice addition to SCSS, as it'd be cleaner than using mixins for the same
 purpose. http://cssprefixer.appspot.com/
 
 
+autoprefixer is a different CSS processor that adds browser-specific prefixes
+to CSS. Should compare these two next time I'm building a CSS pipeline.
+https://github.com/ai/autoprefixer
+
+
+spritesmith is a grunt task for generating spritesheets from a set of images.
+I don't love grunt/gulp, being a fan of `npm run` as simpler and just about as
+powerful, but still worth noting.
+https://github.com/Ensighten/grunt-spritesmith
+
+
 http://caniuse.com/ is the lookup table of "what browsers support this
 feature?" that I've wanted for years. The data driving it is on GitHub,
 which I have cloned Just In Case.
