@@ -6,9 +6,16 @@ libraries for Python (or any language), as far as I can tell. I currently use
 wxPython for cross-platform GUI development, in conjuncture with py2exe and
 py2app. I use InnoSetup to create installers for py2exe packages.
 
+
+pyenv lets you easily change the active Python version for a given project, and
+helps you install the versions your apps need:
+https://github.com/yyuu/pyenv
+
+
 I am an Emacser. It allows me an extremely-customizable, portable environment,
 with quite a lot of power. Also, it's what Dr. Bui told us to use at Penn
 State Harrisburg on our first day of COMP 432, and it stuck.
+
 
 I write plaintext files a lot. For simpler ones like readmes I tend to use
 Markdown these days, and for more complex ones I lean towards reStructuredText.

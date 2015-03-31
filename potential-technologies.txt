@@ -502,10 +502,6 @@ binary files. Not sure it's ready for prime-time, but it's definitely got
 potential.
 
 
-pyenv lets you easily change the active Python version:
-https://github.com/yyuu/pyenv
-
-
 airplane-mode provides an API wrapper server that caches responses so you can
 work offline (for instance, on airplanes).
 https://github.com/jeremiak/airplane-mode
