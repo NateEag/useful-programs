@@ -9,6 +9,13 @@ unsurprisingly, writing this desire down while without an internet connection,
 so I can't go looking.
 
 
+An introduction to the basics of RESTful APIs in the form of a text-based
+adventure. Support the HTTP verbs as commands, and have the player manipulate
+the world to achieve victory conditions. I need to think of a scenario where
+object creation and destruction makes sense... Maybe make the player a god of
+some sort?
+
+
 A program to filter style/static checker results to only report on changed
 lines in a diff. In-progress at https://github.com/NateEag/diff-check.
 
