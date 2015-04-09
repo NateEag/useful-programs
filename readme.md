@@ -79,6 +79,13 @@ VMs work on Linux/OS X. You run it, you wait N hours, and you have a working
 IE test setup. https://github.com/xdissent/ievms
 
 
+iectrl is a program for managing the vms ievms creates. It is particularly
+useful for re-installing the VMs after the Windows activation period has
+expired. If you have not deleted the original downloads from ~/.ievms, you can
+just do `iectrl reinstall 8`, and you'll have a working IE 8 VM in a minute or
+three.
+
+
 gitlist is a no-muss, no-fuss, nice little git repo viewer. It is looking like
 my new go-to for such jobs. It's in PHP, so I've contributed a few patches.
 https://github.com/klaussilveira/gitlist
