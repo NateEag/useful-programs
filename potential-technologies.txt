@@ -513,6 +513,13 @@ binary files. Not sure it's ready for prime-time, but it's definitely got
 potential.
 
 
+git-lfs is Yet Another Solution to storing large files in Git. It's written by
+GitHub, and keeps the actual large files on an HTTPS server based on your
+configuration. Might want to try it someday. You can apparently just use git
+normally after setup, which is a nice touch.
+https://git-lfs.github.com/
+
+
 airplane-mode provides an API wrapper server that caches responses so you can
 work offline (for instance, on airplanes).
 https://github.com/jeremiak/airplane-mode
