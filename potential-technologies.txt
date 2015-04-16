@@ -326,6 +326,10 @@ trial run some time.
 https://github.com/einars/js-beautify
 
 
+https://github.com/jedmao/codepainter is a JS beautifier that can infer
+preferred style from sample files. Interesting idea - dunno how good it is.
+
+
 timeago is a jQuery plugin for fuzzy dates in webpages.
 http://timeago.yarp.com/
 
