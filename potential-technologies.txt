@@ -54,13 +54,6 @@ environments, fully insulated from each other. That sounds like something I
 should really wrap my brain around.
 
 
-http://lesscss.org/ is a CSS generation tool that gives you variables, nested
-selectors, and other such niceties. It is written in JavaScript, and can be
-used with a server-side once-and-done rendering approach (sounds good for
-releases), or with a dynamically-parsed-in-JS-by-includes approach (good for
-development sandboxes). Years later, I think Sass is probably better.
-
-
 http://www.bacula.org/en/ is a backup system that Spencer recommends. It's
 open source and fairly industrial-strength, he says.
 

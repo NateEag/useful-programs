@@ -26,6 +26,11 @@ If I want a SQL-accessible database, for local-app/prototyping purposes,
 I'll tend to grab SQLite. If it needs to be web-scale, I favor PostGreSQL.
 
 
+[Sass's SCSS syntax](http://sass-lang.com/) makes writing CSS less painful, by
+giving you tools to keep things DRY. Be wary of the nesting feature, however -
+it tends to lead to specificity wars.
+
+
 jQuery is handy for simple DOM tweaking on basic pages.
 
 
