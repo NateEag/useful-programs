@@ -257,6 +257,10 @@ users touch up their CSVs before actually uploading records:
 http://www.handsontable.com/
 
 
+scss-lint is a powerful style checker for SCSS.
+https://github.com/brigade/scss-lint
+
+
 cssbeautify is a node.js-based tool for cleaning up stylesheet formatting.
 It doesn't indent comments correctly, and it doesn't support in-place updates,
 but it sure beats nothing. https://github.com/senchalabs/cssbeautify
