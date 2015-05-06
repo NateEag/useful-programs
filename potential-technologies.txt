@@ -262,6 +262,10 @@ It doesn't indent comments correctly, and it doesn't support in-place updates,
 but it sure beats nothing. https://github.com/senchalabs/cssbeautify
 
 
+csscomb looks like a useful stylesheet beautifier. Dunno how it does on SCSS.
+http://csscomb.com/
+
+
 cssprefixer is a CSS processor that saves the need to write out all the
 browser-specific prefixes for not-yet-widely-supported prefixes. Not sure I
 want to use this particular tool just yet, but that functionality might be a
@@ -521,7 +525,7 @@ git-lfs is Yet Another Solution to storing large files in Git. It's written by
 GitHub, and keeps the actual large files on an HTTPS server based on your
 configuration. Might want to try it someday. You can apparently just use git
 normally after setup, which is a nice touch.
-https://git-lfs.github.com/
+https://git-lfs.github.com
 
 
 airplane-mode provides an API wrapper server that caches responses so you can
