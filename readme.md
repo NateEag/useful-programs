@@ -34,14 +34,14 @@ it tends to lead to specificity wars.
 jQuery is handy for simple DOM tweaking on basic pages.
 
 
-For building/maintaining lists in websites where heavy JS is allowed, this
-jQuery UI plugin that modifies multiselects is decent (and I understand the
-codebase a little, having contributed a patch or two):
+For building/maintaining lists in websites where JS is allowed, this jQuery UI
+plugin that modifies multiselects is decent (and I understand the codebase a
+little, having contributed a patch or two):
 https://github.com/crdeutsch/multiselect
 
 
 When mail-client style autocompletion is desired in a web app, a different
-jQuery UI plugin is useful:
+jQuery UI plugin can be useful:
 http://harvesthq.github.com/chosen/
 
 
@@ -54,7 +54,7 @@ If you need a serious search engine for a website, Apache Solr is a very
 powerful, fast full-text search engine built on Java, capable of importing
 data from DBs, PDFs, and of doing faceted searches, as well as having some
 geospatial search functions. It's not very user-friendly, and the architecture
-is very Java (verbose and clunky), but it sure is fast.
+is very Java, but it sure is fast.
 
 
 If you have need of templating in PHP, Twig is the way to go, hands-down:
@@ -102,8 +102,8 @@ Vagrant manages development environments, treating them as a collection of
 
 https://github.com/aehlke/tag-it is a pretty usable jQuery UI plugin for
 tagging things. Low-muss, low-fuss. In an ideal world, this might be an
-enhancement of a multiselect, with a text input for adding tags, but
-practically speaking, it works just fine.
+enhancement of a multiselect, a la Chosen, but practically speaking, it works
+just fine.
 
 
 http://digitalbush.com/projects/masked-input-plugin/ is a pretty usable jQuery
