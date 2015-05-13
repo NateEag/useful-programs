@@ -254,6 +254,12 @@ scss-lint is a powerful style checker for SCSS.
 https://github.com/brigade/scss-lint
 
 
+Clusterize.js lets you display huge datasets in a browser with decent
+performance by just not rendering the offscreen tags. Utility is debatable,
+since a huge list of rows isn't at all useful for understanding huge datasets,
+but there may be cases where it's useful.
+
+
 cssbeautify is a node.js-based tool for cleaning up stylesheet formatting.
 It doesn't indent comments correctly, and it doesn't support in-place updates,
 but it sure beats nothing. https://github.com/senchalabs/cssbeautify
