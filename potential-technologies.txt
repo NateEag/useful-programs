@@ -155,6 +155,11 @@ gitslave is another attempt to solve the submodule problem.
 http://gitslave.sourceforge.net/
 
 
+gittorrent makes git just about entirely distributed, by the magic of
+BitTorrent:
+https://github.com/cjb/gittorrent
+
+
 https://phpids.org is a library for auto-detecting and acting on suspicious
 input from end-users. Think of it as a customizable fail2ban sort of tool.
 
