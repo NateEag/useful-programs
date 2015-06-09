@@ -17,18 +17,19 @@ some sort?
 
 
 A program to filter style/static checker results by lines added and changed
-in the diff between commits. In-progress at https://github.com/NateEag/diff-check.
+in the diff between commits. In-progress at
+https://github.com/NateEag/diff-check.
 
 
 An HTML/CSS/JS style checker that warns you when a construct is not supported
-by a browser the project targets. The data backing caniuse should make this
-possible, but it could be fairly complex to adapt it to work with HTML/CSS/JS
-parsers. check-caniuse might be an okay name?
+by targeted browsers. The data backing caniuse should make this possible, but
+it could be fairly complex to adapt it to work with HTML/CSS/JS parsers.
+check-caniuse might be an okay name? check-browser-compat?
 
 
 A distributed command-line code review system that integrates cleanly with
-native git, with an optional web UI for ease-of-use. It should support tracking a
-branch's entire history (including rebases) without requiring extra
+native git, with an optional web UI for ease-of-use. It should support tracking
+a branch's entire history (including rebases) without requiring extra
 abstractions (like Gerrit's Changeset-Id). Some haphazard design notes on how
 it might be built are at https://github.com/NateEag/git-revue.
 
