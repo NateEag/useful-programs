@@ -34,6 +34,15 @@ abstractions (like Gerrit's Changeset-Id). Some haphazard design notes on how
 it might be built are at https://github.com/NateEag/git-revue.
 
 
+A RESTish HTTP API for receiving messages, usable as a backwards-compatible
+alternative to email. I'm not sure I actually like this idea - it's just an
+interesting thought. If it's open-source, anyone can bring up an instance and
+use a URL as their point of contact, with an email address that just forwards
+to the API's backend. API could offer a message submission form, too. Mailgun
+is not dissimilar to this concept, but is not exactly what I'm thinking of:
+http://www.mailgun.com/
+
+
 A real-time audio synthesis engine that runs on general-purpose computing
 hardware and intelligently scales up number of simultaneous patches/polyphony
 based on available hardware resources.
