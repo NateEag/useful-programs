@@ -134,3 +134,4 @@ browsing). A few useful plugins are worth noting here:
   * EditThisCookie
   * Vimium (browse with vim-like keys)
   * Better History
+  * The Great Suspender (save RAM/CPU by suspending inactive tabs)
