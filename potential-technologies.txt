@@ -107,6 +107,10 @@ csscss detects duplicate declarations in CSS files. Might be very handy.
 http://zmoazeni.github.io/csscss/?hn=1
 
 
+purifycss finds CSS that your application isn't using. Not sure how reliable it
+is: https://github.com/purifycss/purifycss
+
+
 requests is a Python library for speaking HTTP that gets rave reviews:
 http://docs.python-requests.org/en/latest/
 
@@ -522,6 +526,13 @@ replacement for CloudApp. https://github.com/naelstrof/maim
 murder uses BitTorrent to deploy things to massive arrays of servers. Not a
 problem I'm ever likely to have, but a brilliant solution to this problem
 nonetheless. https://github.com/lg/murder
+
+
+[Cap'n Proto](https://capnproto.org/) is a very fast cross-language data
+interchange format - as the site says, "think JSON, except binary". It's
+designed by the guy who originally did Google's protobufs, because after doing
+protobufs he wanted to start from a clean slate. Sounds a great tool for
+internal distributed systems where scaling really matters.
 
 
 bup adapts Git's packfile format to a backup system that deduplicates within
