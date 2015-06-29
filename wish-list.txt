@@ -51,3 +51,5 @@ http://www.mailgun.com/
 A real-time audio synthesis engine that runs on general-purpose computing
 hardware and intelligently scales up number of simultaneous patches/polyphony
 based on available hardware resources.
+[TessellationOS](http://tessellation.cs.berkeley.edu/) could be an excellent
+OS to implement this system on, if/when it reaches a public release.
