@@ -79,6 +79,11 @@ and is a decent (if slow) way to run MS Windows on Linux/OS X, or to play with
 other operating systems.
 
 
+[linkchecker](http://wummel.github.io/linkchecker/) is a simple tool for
+checking websites for broken links. Excellent thing to run as part of a build
+process, or just nightly against production, if you rely on links to other sites.
+
+
 ievms is a handy script that does the painful work of making MS's IE testing
 VMs work on Linux/OS X. You run it, you wait N hours, and you have a working
 IE test setup. https://github.com/xdissent/ievms
