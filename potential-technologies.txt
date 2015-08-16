@@ -553,3 +553,8 @@ https://github.com/jeremiak/airplane-mode
 
 
 tota11y is an in-browser accessibility linter: https://github.com/Khan/tota11y
+
+
+Known may be the one-click open-source 'personal web presence' package I've
+wished existed, so mortals didn't have to sign away everything to one vendor or
+another: https://withknown.com/
