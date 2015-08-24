@@ -194,6 +194,10 @@ Style guidelines for JS which look decent:
 https://github.com/rwaldron/idiomatic.js/
 
 
+GraspJS is a tool for searching and editing JS based on the AST:
+http://www.graspjs.com/
+
+
 git-deploy is a robust-looking git-oriented deployment tool I would like to
 try out someday: https://github.com/git-deploy/git-deploy
 
