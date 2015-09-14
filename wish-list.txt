@@ -41,6 +41,11 @@ other. Call it schema-diff. Liquibase has parts of this, but it's not clear to
 me that schema-diff as such is there (see potential-technologies.txt).
 
 
+A two-player web-based implementation of the Kriegspiel chess variant. This
+probably would be easy to write, but it's a low priority, given all the other
+things I want to
+
+
 A RESTish HTTP API for receiving messages, usable as a backwards-compatible
 alternative to email. I'm not sure I actually like this idea - it's just an
 interesting thought. If it's open-source, anyone can bring up an instance and
