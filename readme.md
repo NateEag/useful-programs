@@ -140,3 +140,9 @@ browsing). A few useful plugins are worth noting here:
   * Vimium (browse with vim-like keys)
   * Better History
   * The Great Suspender (save RAM/CPU by suspending inactive tabs)
+
+
+crankd (part of https://github.com/nigelkersten/pymacadmin) is a great way to
+kick off jobs on network connection/loss, on OS X. It'd be nice to write a
+wrapper around it to let me schedule jobs for "when I have a connection again",
+like scheduling git pushes for when I have a connection.
