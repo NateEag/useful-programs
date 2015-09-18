@@ -57,6 +57,13 @@ should really wrap my brain around.
 http://www.bacula.org/en/ is a backup system that Spencer recommends. It's
 open source and fairly industrial-strength, he says.
 
+rdiff-backup also looks like a good option: http://rdiff-backup.nongnu.org/
+
+
+bup adapts Git's packfile format to a backup system that deduplicates within
+binary files. Not sure it's ready for prime-time, but it's definitely got
+potential.
+
 
 Fabric is a Python module for automating tasks over SSH. Not quite like a
 configuration management tool, but still worth knowing about, I suppose.
@@ -537,11 +544,6 @@ interchange format - as the site says, "think JSON, except binary". It's
 designed by the guy who originally did Google's protobufs, because after doing
 protobufs he wanted to start from a clean slate. Sounds a great tool for
 internal distributed systems where scaling really matters.
-
-
-bup adapts Git's packfile format to a backup system that deduplicates within
-binary files. Not sure it's ready for prime-time, but it's definitely got
-potential.
 
 
 git-lfs is Yet Another Solution to storing large files in Git. It's written by
