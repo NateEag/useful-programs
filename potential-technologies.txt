@@ -42,13 +42,6 @@ Stripe is a ycombinator startup that does payment processing for geeks:
 https://stripe.com/
 
 
-CookieSwap is an old FF plugin to let you store different sets of cookies for
-the same domain and flip between them. I was wishing it existed, for web
-development, so I went looking. Sadly, it appears to only work for 1.5 and 2,
-but I should test it, and/or see how hard it is to update.
-http://cookieswap.mozdev.org/
-
-
 virtualenv is a Python tool for letting you have multiple distinct Python
 environments, fully insulated from each other. That sounds like something I
 should really wrap my brain around.

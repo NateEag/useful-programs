@@ -135,10 +135,11 @@ extensible, and a much, much wider range of options.
 
 Google Chrome is my preferred browser (for web development and general
 browsing). A few useful plugins are worth noting here:
-  * JSONView
-  * EditThisCookie
+  * JSONView (make JSON responses prettier)
+  * Edit This Cookie (edit cookies easily)
+  * Swap My Cookies (store and exchange different sets of cookies)
   * Vimium (browse with vim-like keys)
-  * Better History
+  * Better History (make history easier to use and search)
   * The Great Suspender (save RAM/CPU by suspending inactive tabs)
 
 
