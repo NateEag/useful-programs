@@ -129,8 +129,8 @@ http://typing.io/ A great little tool for exploring OSS code and learning to
 type code (all those little weird characters, y'know?). Basic plans are free.
 
 
-eslint beats the pants off of jshint or jslint. Plugin architecture, easily
-extensible, and a much, much wider range of options.
+eslint is an excellent style-checker and linter for JS. Plugin architecture,
+easily extensible, sane defaults, but everything configurable. http://eslint.org
 
 
 Google Chrome is my preferred browser (for web development and general
