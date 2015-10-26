@@ -208,6 +208,11 @@ delivers the basics sanely, that'd beat most systems hands-down. Written in
 PHP by an ex-FB employee: http://phabricator.org/
 
 
+mattermost is an open-source Slack clone, and might well be what I'd pick for
+an in-house chat client, should I ever have need of one:
+http://www.mattermost.org/
+
+
 BuildBot is an open-source tool for automating builds, tests, and releases:
 http://buildbot.net/index.html
 
@@ -376,6 +381,10 @@ aware of what I am or am not missing. http://piwik.org/
 ExifTool is a Swiss-Army chainsaw for image metadata (command-line tool and
 library). It is, appropriately enough, written in the Swiss-Army chainsaw
 language.
+
+
+smartcrop.js is a basic automatic image cropper:
+https://github.com/jwagner/smartcrop.js/
 
 
 riot.js is a lightweight Model-View-"Presenter" JS framework. Cursory

@@ -43,16 +43,4 @@ me that schema-diff as such is there (see potential-technologies.txt).
 
 A two-player web-based implementation of the Kriegspiel chess variant. This
 probably would be easy to write, but it's a low priority, given all the other
-things I want to
-
-
-A RESTish HTTP API for receiving messages, usable as a backwards-compatible
-alternative to email. I'm not sure I actually like this idea - it's just an
-interesting thought. If it's open-source, anyone can bring up an instance and
-use a URL as their point of contact, with an email address that just forwards
-to the API's backend. API instance could offer a message submission form, as
-well as your mailchecking API. Could you do something in the API design to help
-solve the spam problem, since it's distributed? I don't understand the spam
-problem well enough to answer that question...
-Mailgun is not dissimilar to this concept, but is not exactly what I'm thinking
-of: http://www.mailgun.com/
+things I want to bang out.

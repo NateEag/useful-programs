@@ -1,0 +1,20 @@
+This file contains program concepts I find interesting, but am not sure I
+actually want to use.
+
+
+A platform for publishing anonymously, with support for retroactively
+unveiling yourself as the author. By requiring the public half of a
+single-use key pair at initial submission, the original author can
+retroactively claim authorship by publicly releasing a signed claim to
+authorship.
+
+
+A RESTish HTTP API for receiving messages, usable as a backwards-compatible
+alternative to email. I'm not sure I actually like this idea - it's just an
+interesting thought. If it's open-source, anyone can bring up an instance and
+use a URL as their point of contact, with an email address that just forwards
+to the API's backend. API instance could offer a message submission form, as
+well as your mailchecking API. Could you do something in the API design to help
+solve the spam problem? I don't understand the spam problem well enough to
+answer that question... Mailgun is not unrelated to this concept, but is not
+exactly what I'm thinking of: http://www.mailgun.com/
