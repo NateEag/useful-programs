@@ -38,6 +38,11 @@ wanting. There's also a Linux distro built on top of it.
 http://nixos.org/nix/
 
 
+NaturalDocs is a tool for generating an API reference from source code
+comments, using a more readable, lightweight syntax than JavaDoc.
+http://www.naturaldocs.org/
+
+
 Stripe is a ycombinator startup that does payment processing for geeks:
 https://stripe.com/
 
