@@ -42,10 +42,6 @@ Stripe is a ycombinator startup that does payment processing for geeks:
 https://stripe.com/
 
 
-virtualenv is a Python tool for letting you have multiple distinct Python
-environments, fully insulated from each other. That sounds like something I
-should really wrap my brain around.
-
 
 http://www.bacula.org/en/ is a backup system that Spencer recommends. It's
 open source and fairly industrial-strength, he says.

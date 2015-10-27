@@ -12,6 +12,11 @@ helps you install the versions your apps need:
 https://github.com/yyuu/pyenv
 
 
+virtualenv is a Python tool for installing the modules required for a given
+application in their own self-contained directory.
+https://virtualenv.pypa.io/en/latest/
+
+
 I am an Emacser. It allows me an extremely-customizable, portable environment,
 with quite a lot of power. Also, it's what Dr. Bui told us to use at Penn
 State Harrisburg on our first day of COMP 432, and it stuck.
