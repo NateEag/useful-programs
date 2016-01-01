@@ -47,16 +47,27 @@ Stripe is a ycombinator startup that does payment processing for geeks:
 https://stripe.com/
 
 
+bup adapts Git's packfile format to a backup system that deduplicates within
+binary files. Not sure it's ready for prime-time, but it's definitely got
+potential.
+
 
 http://www.bacula.org/en/ is a backup system that Spencer recommends. It's
 open source and fairly industrial-strength, he says.
 
-rdiff-backup also looks like a good option: http://rdiff-backup.nongnu.org/
+
+Pipsi is a tool for installing python scripts as standalone commands. Think of
+it as Python's answer to 'npm install -g'. https://github.com/mitsuhiko/pipsi
 
 
-bup adapts Git's packfile format to a backup system that deduplicates within
-binary files. Not sure it's ready for prime-time, but it's definitely got
-potential.
+Click is a Python module for defining command-line tools via function
+decorators. I prefer docopt for simple tools, but if you're building a more
+complex CLI, a la Mercurial, I doubt docopt is good enough.
+http://click.pocoo.org/5/
+
+
+http://amoffat.github.com/sh/ is a python module for handling subprocesses. It
+appears to suck much less than subprocess.
 
 
 Fabric is a Python module for automating tasks over SSH. Not quite like a
@@ -76,10 +87,6 @@ some point. http://supervisord.org/
 emacsy is a not-yet-existent system for embedding an Emacs-ish approach to
 user interface creation in arbitrary binaries:
 https://github.com/secelis/emacsy
-
-
-http://amoffat.github.com/sh/ is a python module for handling subprocesses. It
-appears to suck much less than subprocess.
 
 
 fail2ban is something I should probably have installed on any web-facing
