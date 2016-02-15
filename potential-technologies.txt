@@ -70,6 +70,10 @@ http://amoffat.github.com/sh/ is a python module for handling subprocesses. It
 appears to suck much less than subprocess.
 
 
+Records is a python module for working with DBs, by the legendary Kenneth
+Reitz. https://github.com/kennethreitz/records
+
+
 Fabric is a Python module for automating tasks over SSH. Not quite like a
 configuration management tool, but still worth knowing about, I suppose.
 http://docs.fabfile.org/en/1.4.1/index.html
