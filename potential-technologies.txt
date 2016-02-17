@@ -18,11 +18,6 @@ than animated GIFs/PNGs (especially if you need multiple sizes), and works in
 a wide array of browsers. http://fgnass.github.com/spin.js/
 
 
-Many programs and systems do not support Unicode correctly (or at all). When
-you need to work with them in Python, unidecode is (probably) a useful module.
-http://www.tablix.org/~avian/git/unidecode.git
-
-
 puppet seems like an excellent open-source tool for server configuration
 management, particularly when facing large deployments. I have not yet had a
 chance to try playing with it, but it looks from the outside like it would be
@@ -66,12 +61,27 @@ complex CLI, a la Mercurial, I doubt docopt is good enough.
 http://click.pocoo.org/5/
 
 
+tqdm turns Python iterators into iterators that output a progress prompt.
+https://github.com/noamraph/tqdm
+
+
 http://amoffat.github.com/sh/ is a python module for handling subprocesses. It
 appears to suck much less than subprocess.
 
 
+arrow is an improved(?), unified datetime library for Python. Looks nice.
+
+
 Records is a python module for working with DBs, by the legendary Kenneth
 Reitz. https://github.com/kennethreitz/records
+
+
+requests is a Python library for speaking HTTP that gets rave reviews:
+http://docs.python-requests.org/en/latest/
+
+
+bleach is a Python library for cleaning up HTML
+https://github.com/jsocol/bleach
 
 
 Fabric is a Python module for automating tasks over SSH. Not quite like a
@@ -79,13 +89,18 @@ configuration management tool, but still worth knowing about, I suppose.
 http://docs.fabfile.org/en/1.4.1/index.html
 
 
-xfst is a Unix-based tool from Xerox PARC that is a sort of competitor to
-regular expressions. Consider checking it out someday when I have too much
-free time. http://www.cis.upenn.edu/~cis639/docs/xfst.html
+Many programs and systems do not support Unicode correctly (or at all). When
+you need to work with them in Python, unidecode is (probably) a useful module.
+http://www.tablix.org/~avian/git/unidecode.git
 
 
 supervisord is a Python process control system. Might be worth checking out at
 some point. http://supervisord.org/
+
+
+xfst is a Unix-based tool from Xerox PARC that is a sort of competitor to
+regular expressions. Consider checking it out someday when I have too much
+free time. http://www.cis.upenn.edu/~cis639/docs/xfst.html
 
 
 emacsy is a not-yet-existent system for embedding an Emacs-ish approach to
@@ -125,10 +140,6 @@ http://zmoazeni.github.io/csscss/?hn=1
 
 purifycss finds CSS that your application isn't using. Not sure how reliable it
 is: https://github.com/purifycss/purifycss
-
-
-requests is a Python library for speaking HTTP that gets rave reviews:
-http://docs.python-requests.org/en/latest/
 
 
 Twig.js compiles Twig templates into JS. Could be great for AJAX-heavy apps,
@@ -410,10 +421,6 @@ https://moot.it/blog/technology/riotjs-the-1kb-mvp-framework.html and
 https://github.com/moot/riotjs/
 
 
-tqdm turns Python iterators into iterators that output a progress prompt.
-https://github.com/noamraph/tqdm
-
-
 clrs.cc is a small CSS (and CSS preprocessor) package giving CSS better default
 colors.
 
@@ -443,10 +450,6 @@ different gateways. https://github.com/omnipay/omnipay
 
 watchman is for watching files and doing something when they change.
 https://github.com/facebook/watchman
-
-
-bleach is a Python library for cleaning up HTML
-https://github.com/jsocol/bleach
 
 
 gor is a tool for capturing and replaying HTTP requests from prod.
@@ -528,9 +531,6 @@ https://github.com/hut8labs/diffscuss
 Sandstorm is a webapp sandboxing system meant to enable the sort of
 personal-cloud setup I hope will be feasible for normals someday:
 https://github.com/sandstorm-io/sandstorm
-
-
-arrow is an improved(?), unified datetime library for Python. Looks nice.
 
 
 Bourbon Neat is a SASS grid framework that lets you have really clean markup.
