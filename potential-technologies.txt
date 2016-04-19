@@ -474,16 +474,21 @@ gogs is a git repository viewer written in Go, and thus hopefully installable
 via binary fairly easily: https://github.com/gogits/gogs
 
 
-docopt is a standard for turning a command-line app's help string into an
-argument parser. It works for several languages, including Python, Ruby,
-JavaScript, PHP, and Go:
-http://docopt.org/
+Rewind is a set of ruby scripts for learning interesting tidbits about a
+project's development history, based on its git repo:
+https://github.com/gilesbowkett/rewind
 
 
 BFG Repo Cleaner is a simpler way to nuke data from a git repo's history.
 Having used filter-branch for this job a few times, I wouldn't mind giving it
 a spin next time I have to do this.
 http://rtyley.github.io/bfg-repo-cleaner/
+
+
+docopt is a standard for turning a command-line app's help string into an
+argument parser. It works for several languages, including Python, Ruby,
+JavaScript, PHP, and Go:
+http://docopt.org/
 
 
 jq is a command-line tool for processing JSON the way you'd use awk/sed/grep
