@@ -231,7 +231,7 @@ support comment annotations, but not using JSDoc (for valid reasons, namely
 desiring more flexibility than JSDoc type annotations offer).
 http://flowtype.org/
 Since I'm a JSDoc fan, I'm more intrigued by tern-lint, which is driven by
-JSDoc type hints. https://github.com/angelozerr/tern-lint
+JSDoc param types. https://github.com/angelozerr/tern-lint
 
 
 git-deploy is a robust-looking git-oriented deployment tool I would like to
@@ -335,8 +335,17 @@ to CSS. Should compare these two next time I'm building a CSS pipeline.
 https://github.com/ai/autoprefixer
 
 
-spritesmith is a grunt task for generating spritesheets from a set of images.
-I don't love grunt/gulp, being a fan of `npm run` as simpler and just about as
+oldie is a tool for translating CSS into IE-friendly dialects, as much as it
+can. I'm sure it's not perfect, but it does sound interesting.
+https://github.com/jonathantneal/oldie
+
+
+postcss is the infrastructure upon which autoprefixer and friends are built:
+https://github.com/postcss/postcss
+
+
+spritesmith is a grunt task for generating spritesheets from a set of images. I
+don't love grunt/gulp, being a fan of `npm run` as simpler and just about as
 powerful, but still worth noting.
 https://github.com/Ensighten/grunt-spritesmith
 
