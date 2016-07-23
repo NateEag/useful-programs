@@ -116,7 +116,11 @@ via iptables. http://www.fail2ban.org/wiki/index.php/Main_Page
 SchemaSpy looks at your schemas and makes a navigable HTML docs page, complete
 with diagrams of the DB. I would very much like to integrate it with git's
 post-receive hook to have an auto-updated page on project dev sites that
-outlines the schema as it is in, say, master.
+outlines the schema as it is in, say, master. http://schemaspy.sourceforge.net/
+
+
+SchemaCrawler explores schemas, and *also* has extensible support for linting
+schemas. http://sualeh.github.io/SchemaCrawler/
 
 
 PEV is a GUI for looking at PostGres query explanations:
@@ -189,6 +193,10 @@ http://gitslave.sourceforge.net/
 gittorrent makes git just about entirely distributed, by the magic of
 BitTorrent:
 https://github.com/cjb/gittorrent
+
+
+git-browse is a command for interactively exploring blame history.
+https://github.com/georgebrock/git-browse
 
 
 https://phpids.org is a library for auto-detecting and acting on suspicious
