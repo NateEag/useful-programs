@@ -379,6 +379,11 @@ ORM.
 http://www.liquibase.org/
 
 
+sqitch is a Perl tool for doing much the same thing. It looks pretty
+interesting. Like Liquibase, it is *not* tied to a particular framework,
+language, or DB - it just happens to be written in Perl. http://sqitch.org/
+
+
 ruckusing-migrations is a PHP library for handling DB migrations.
 https://github.com/ruckus/ruckusing-migrations
 
