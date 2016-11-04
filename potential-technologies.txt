@@ -615,6 +615,12 @@ https://github.com/jeremiak/airplane-mode
 tota11y is an in-browser accessibility linter: https://github.com/Khan/tota11y
 
 
+pass is the standard unix password manager. I must admit I'm rather tempted by
+it, because my ability to remember an ever-increasing pile of passwords is
+shrinking... I could use git and encrypted plaintext files with a really,
+really good master password to save everything. https://www.passwordstore.org/
+
+
 Known may be the one-click open-source 'personal web presence' package I've
 wished existed, so mortals didn't have to sign away everything to one vendor or
 another: https://withknown.com/
