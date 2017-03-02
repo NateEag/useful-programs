@@ -123,6 +123,9 @@ SchemaCrawler explores schemas, and *also* has extensible support for linting
 schemas. http://sualeh.github.io/SchemaCrawler/
 
 
+Alembic
+
+
 PEV is a GUI for looking at PostGres query explanations:
 https://github.com/AlexTatiyants/pev
 
@@ -384,7 +387,11 @@ interesting. Like Liquibase, it is *not* tied to a particular framework,
 language, or DB - it just happens to be written in Perl. http://sqitch.org/
 
 
-ruckusing-migrations is a PHP library for handling DB migrations.
+Alembic is a SQL DB schema migration manager built around SQLAlchemy.
+https://bitbucket.org/zzzeek/alembic
+
+
+ruckusing-migrations is a PHP library for handling DB schema migrations.
 https://github.com/ruckus/ruckusing-migrations
 
 
