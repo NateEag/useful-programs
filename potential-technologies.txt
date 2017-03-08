@@ -319,6 +319,10 @@ scss-lint is a powerful style checker for SCSS.
 https://github.com/brigade/scss-lint
 
 
+stylelint is an alternative style checker for CSS-likes, driven by PostCSS, and
+thus able to understand any dialect PostCSS understands. https://stylelint.io
+
+
 Clusterize.js lets you display huge datasets in a browser with decent
 performance by just not rendering the offscreen tags. Utility is debatable,
 since a huge list of rows isn't at all useful for understanding huge datasets,
