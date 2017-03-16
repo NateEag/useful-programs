@@ -585,6 +585,11 @@ Presumably it sacrifices older browsers.
 http://neat.bourbon.io/
 
 
+Lumen is meant to be a framework for building color themes in Sass based on
+relationships between colors, which sounds pretty interesting to me.
+https://tallys.github.io/lumen/sassdoc/
+
+
 C3.js is a JavaScript charting library built on top of D3.js. No IE 8 support.
 http://c3js.org/
 
