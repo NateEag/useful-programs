@@ -637,6 +637,14 @@ shrinking... I could use git and encrypted plaintext files with a really,
 really good master password to save everything. https://www.passwordstore.org/
 
 
+An interesting alternative to pass is Master Password, which uses a
+finite-state algorithm to generate site-specific passwords from a master
+password, your name, and the site you're visiting. That way, there are no
+stored files to attack, and you can't lose your password archive to human error
+or device destruction. The only secret is in your head, and you can install the
+software wherever you need to.
+
+
 Known may be the one-click open-source 'personal web presence' package I've
 wished existed, so mortals didn't have to sign away everything to one vendor or
 another: https://withknown.com/
