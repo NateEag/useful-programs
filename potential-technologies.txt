@@ -286,6 +286,10 @@ That's not too likely, but could happen if I need an icon font.
 http://fontforge.org/
 
 
+Feather Icons is a collection of open-source SVG icons.
+https://feathericons.com/
+
+
 Mailcheck is a JS plugin to check for typos in an email address's domain.
 Should be great for cutting down on signup bounces.
 https://github.com/Kicksend/mailcheck
