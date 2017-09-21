@@ -123,9 +123,6 @@ SchemaCrawler explores schemas, and *also* has extensible support for linting
 schemas. http://sualeh.github.io/SchemaCrawler/
 
 
-Alembic
-
-
 PEV is a GUI for looking at PostGres query explanations:
 https://github.com/AlexTatiyants/pev
 
