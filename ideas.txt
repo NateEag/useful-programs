@@ -10,11 +10,16 @@ authorship.
 
 
 A RESTish HTTP API for receiving messages, usable as a backwards-compatible
-alternative to email. I'm not sure I actually like this idea - it's just an
-interesting thought. If it's open-source, anyone can bring up an instance and
-use a URL as their point of contact, with an email address that just forwards
-to the API's backend. API instance could offer a message submission form, as
-well as your mailchecking API. Could you do something in the API design to help
-solve the spam problem? I don't understand the spam problem well enough to
-answer that question... Mailgun is not unrelated to this concept, but is not
-exactly what I'm thinking of: http://www.mailgun.com/
+alternative to email. I'm not sure I actually like this idea, because building
+a new protocol on top of HTTP is kinda suspicious - it's just an interesting
+thought. If it's open-source, anyone can bring up an instance and use a URL as
+their point of contact, with an email address that just forwards to the API's
+backend. API instance could offer a message submission form (a.k.a. "contact
+form"), as well as your mailchecking API. You could probably do something in
+this API's design to help solve the spam problem, such as adding a captcha
+layer to the "send me an email" interaction, and by offering a mechanism to
+whitelist trusted senders (perhaps driven by signed tokens that are part of the
+submission, and requiring message origin URL on messages that want to bypass
+the captcha, thereby making it possible for the recipient to check with the
+sender for the token's validity). Mailgun is not unrelated to this concept, but
+is not exactly what I'm thinking of: http://www.mailgun.com/
