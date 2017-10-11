@@ -190,6 +190,11 @@ gitslave is another attempt to solve the submodule problem.
 http://gitslave.sourceforge.net/
 
 
+git-series is a command for tracking changes to a patchset over time, built on
+top of git's native data structures. Seems interesting, and relevant to some of
+my vague desires for a VCS: https://github.com/git-series/git-series
+
+
 gittorrent makes git just about entirely distributed, by the magic of
 BitTorrent:
 https://github.com/cjb/gittorrent
