@@ -148,6 +148,11 @@ browsing). A few useful plugins are worth noting here:
   * Vimium (browse with vim-like keys)
   * Better History (make history easier to use and search)
   * The Great Suspender (save RAM/CPU by suspending inactive tabs)
+  * Custom Javascript for Websites (run arbitrary JS for arbitrary URLs)
+  * Stylish (user stylesheets, now that Chrome doesn't support them any more)
+  * GhostText (hook up your editor to Chrome textareas and see changes as you type)
+  * New tab URL (redirect new tabs to a given URL [so vimium works on new tab])
+  * StayFocusd (ration time on timewaster domains)
 
 
 crankd (part of https://github.com/nigelkersten/pymacadmin) is a great way to
