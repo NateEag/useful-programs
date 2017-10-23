@@ -27,8 +27,10 @@ Markdown these days, and for more complex ones I lean towards reStructuredText.
 Neither's perfect, but it beats reinventing the wheel.
 
 
-If I want a SQL-accessible database, for local-app/prototyping purposes,
-I'll tend to grab SQLite. If it needs to be web-scale, I favor PostGreSQL.
+If I want a SQL-accessible database, for local-app/prototyping purposes, I'll
+tend to grab SQLite. For systems that need a Real Database, I favor PostGreSQL
+for being open-source, robust, powerful, and for being zealous in its default
+protection of my data integrity.
 
 
 [Sass's SCSS syntax](http://sass-lang.com/) makes writing CSS less painful, by
