@@ -59,7 +59,7 @@ http://harvesthq.github.com/chosen/
 
 
 When you want to apply pretty, customizable styles to tricky form elements
-(selects, file inputs, radio buttons, and the like), Uniform.js is very handy.
+(selects, file inputs, radio buttons, and the like), Uniform.js is handy.
 http://uniformjs.com/
 
 
