@@ -27,6 +27,12 @@ Markdown these days, and for more complex ones I lean towards reStructuredText.
 Neither's perfect, but it beats reinventing the wheel.
 
 
+sqlmap.py is an excellent tool for showing people how deadly SQL injection
+actually is. Not everyone realizes that you need no technical sophistication to
+completely exploit a site with injection flaws, and this tool shows that
+admirably. http://sqlmap.org/
+
+
 If I want a SQL-accessible database, for local-app/prototyping purposes, I'll
 tend to grab SQLite. For systems that need a Real Database, I favor PostGreSQL
 for being open-source, robust, powerful, and for being zealous in its default
