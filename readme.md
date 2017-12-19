@@ -135,7 +135,8 @@ http://logexpert.codeplex.com/
 
 Instant EyeDropper is a Windows tool for getting any on-screen color. Not
 flawless (only works on primary monitor), but sure beats
-screenshot/paste/eyedropper: http://instant-eyedropper.com/
+screenshot/paste/eyedropper: http://instant-eyedropper.com/ On OS X you can
+just use the built in "Digital Color Meter" app.
 
 
 http://typing.io/ A great little tool for exploring OSS code and learning to
