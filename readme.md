@@ -159,6 +159,15 @@ browsing). A few useful plugins are worth noting here:
   * GhostText (hook up your editor to Chrome textareas and see changes as you type)
   * New tab URL (redirect new tabs to a given URL [so vimium works on new tab])
   * StayFocusd (ration time on timewaster domains)
+  * chrome-pass for hooking Chrome up to the 'pass' CLI password manager
+
+Chrome also has some awesome built-in features, many of which can be discovered
+by loading its list of internal URLS in a Chrome tab: chrome://chrome-urls/
+
+If you frequently use a URL with variable data somewhere in it, try setting it
+up as a custom search engine at the chrome://settings/searchEngines URL. Once
+you have, type your keyword, press tab, then enter the variable data. I think
+of these as 'templated bookmarks'.
 
 
 crankd (part of https://github.com/nigelkersten/pymacadmin) is a great way to
