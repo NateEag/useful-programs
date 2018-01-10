@@ -410,6 +410,10 @@ forms. It seems very solid:
 https://github.com/stripe/jquery.payment
 
 
+Uppy is an ES 6 file uploader UI that looks pretty slick. I have not yet
+actually dealt with it, though: https://uppy.io/
+
+
 Yahoo has a JS-based tool for measuring perceived performance. Having seen a
 little of what Google Analytics can do, I'm not sure this would ever be
 necessary, but it might be worth looking into sometime:
