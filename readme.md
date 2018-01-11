@@ -1,6 +1,16 @@
 In here I list software I like to use, mostly for my own benefit.
 
 
+I am an Emacser. It allows me an extremely-customizable, portable environment,
+with quite a lot of power. Also, it's what Dr. Bui told us to use at Penn
+State Harrisburg on our first day of COMP 432, and it stuck.
+
+
+I write plaintext files a lot. For simpler ones like readmes I tend to use
+Markdown these days, and for more complex ones I lean towards reStructuredText.
+Neither's perfect, but it beats reinventing the wheel.
+
+
 For writing software, my preferred language is Python. There are no good GUI
 libraries for Python (or any language), as far as I can tell. I currently use
 wxPython for cross-platform GUI development, in conjuncture with py2exe and
@@ -17,16 +27,6 @@ application in their own self-contained directory.
 https://virtualenv.pypa.io/en/latest/
 
 
-I am an Emacser. It allows me an extremely-customizable, portable environment,
-with quite a lot of power. Also, it's what Dr. Bui told us to use at Penn
-State Harrisburg on our first day of COMP 432, and it stuck.
-
-
-I write plaintext files a lot. For simpler ones like readmes I tend to use
-Markdown these days, and for more complex ones I lean towards reStructuredText.
-Neither's perfect, but it beats reinventing the wheel.
-
-
 sqlmap.py is an excellent tool for showing people how deadly SQL injection
 actually is. Not everyone realizes that you need no technical sophistication to
 completely exploit a site with injection flaws, and this tool shows that
@@ -35,8 +35,8 @@ admirably. http://sqlmap.org/
 
 If I want a SQL-accessible database, for local-app/prototyping purposes, I'll
 tend to grab SQLite. For systems that need a Real Database, I favor PostGreSQL
-for being open-source, robust, powerful, and for being zealous in its default
-protection of my data integrity.
+for being open-source, robust, powerful, and for being zealous for my data's
+integrity by default.
 
 
 [Sass's SCSS syntax](http://sass-lang.com/) makes writing CSS less painful, by
@@ -63,15 +63,9 @@ When you want to apply pretty, customizable styles to tricky form elements
 http://uniformjs.com/
 
 
-If you need a serious search engine for a website, Apache Solr is a very
-powerful, fast full-text search engine built on Java, capable of importing
-data from DBs, PDFs, and of doing faceted searches, as well as having some
-geospatial search functions. It's not very user-friendly, and the architecture
-is very Java, but it sure is fast.
-
-
 If you have need of templating in PHP, Twig is the way to go, hands-down:
-http://www.twig-project.org/
+http://www.twig-project.org/ It's strongly inspired by Jinja, which is my
+preferred templating language when in Python contexts: http://jinja.pocoo.org/
 
 
 PHP Code Sniffer is a tool for detecting and fixing style violations in PHP
@@ -79,8 +73,9 @@ source code. You can define your own style guidelines.
 https://github.com/squizlabs/PHP_CodeSniffer
 
 
-httrack is a very cool tool for cloning websites for offline viewing that Bob
-just introduced me to: http://www.httrack.com/
+httrack is a tool for cloning websites for offline viewing that Bob introduced
+me to: http://www.httrack.com/ It was more relevant before the days of the SPA
+came upon us.
 
 
 I've decided to standardize my monospaced font, and Anonymous Pro is my
@@ -109,13 +104,21 @@ just do `iectrl reinstall 8`, and you'll have a working IE 8 VM in a minute or
 three.
 
 
-gitlist is a no-muss, no-fuss, nice little git repo viewer. It is looking like
-my new go-to for such jobs. It's in PHP, so I've contributed a few patches.
-https://github.com/klaussilveira/gitlist
+gitlist is a no-muss, no-fuss, nice little git repo viewer. It's in PHP, so
+I've contributed a few patches. https://github.com/klaussilveira/gitlist
 
 
 Vagrant manages development environments, treating them as a collection of
-1-to-N virtual machines.
+1-to-N virtual machines. It's primarily an abstraction over virtualization
+platforms, letting developers think in terms like 'provision my box again',
+'suspend my box', 'restart my box', etc. That mindset can be especially helpful
+when hacking out provisioners to ensure consistency across environments.
+https://www.vagrantup.com/
+
+
+Ansible is a solid answer to the question "How do I define an app's execution
+environment as a readable set of changes relative to a base OS image?"
+https://www.ansible.com/
 
 
 https://github.com/aehlke/tag-it is a pretty usable jQuery UI plugin for
@@ -148,7 +151,17 @@ easily extensible, sane defaults, but everything configurable. http://eslint.org
 
 
 Google Chrome is my preferred browser (for web development and general
-browsing). A few useful plugins are worth noting here:
+browsing). It has some awesome built-in features, many of which can be
+discovered by loading its list of internal URLS in a Chrome tab:
+chrome://chrome-urls/
+
+If you frequently use a URL with variable data somewhere in it, try setting it
+up as a custom search engine at the chrome://settings/searchEngines URL. Once
+you have, type your keyword, press tab, then enter the variable data. I think
+of these as 'templated bookmarks'.
+
+I use a slew of extensions with Chrome:
+
   * JSONView (make JSON responses prettier)
   * Edit This Cookie (edit cookies easily)
   * Swap My Cookies (store and exchange different sets of cookies)
@@ -162,13 +175,10 @@ browsing). A few useful plugins are worth noting here:
   * StayFocusd (ration time on timewaster domains)
   * chrome-pass for hooking Chrome up to the 'pass' CLI password manager
 
-Chrome also has some awesome built-in features, many of which can be discovered
-by loading its list of internal URLS in a Chrome tab: chrome://chrome-urls/
-
-If you frequently use a URL with variable data somewhere in it, try setting it
-up as a custom search engine at the chrome://settings/searchEngines URL. Once
-you have, type your keyword, press tab, then enter the variable data. I think
-of these as 'templated bookmarks'.
+It's handy to open chrome-pass via keyboard shortcut, but it doesn't have one
+built-in. Fortunately, you can set custom keyboard shortcuts for extensions on
+by clicking 'Keyboard shortcuts' at the bottom of the chrome://extensions page.
+I use Command+Shift+L to trigger chrome-pass.
 
 
 crankd (part of https://github.com/nigelkersten/pymacadmin) is a great way to
