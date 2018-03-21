@@ -23,3 +23,14 @@ submission, and requiring message origin URL on messages that want to bypass
 the captcha, thereby making it possible for the recipient to check with the
 sender for the token's validity). Mailgun is not unrelated to this concept, but
 is not exactly what I'm thinking of: http://www.mailgun.com/
+
+
+A program that detects poor code structure by examining parse trees. I'm
+roughly thinking of this as a literate programming version of Fowler's
+"Refactoring" book. Just think how much more useful that book would be if it
+were a program that pointed it out when you write something that could be
+refactored to a simpler form. Making it operate on parse trees is based on the
+idea that many refactorings are not really language-specific - they're about
+logical concepts that may be describable in abstract parse-tree forms, as long
+as you have some shared concepts of scope, variables, functions, and a few of
+the common keywords. That said, this concept might well be crazy-town.
