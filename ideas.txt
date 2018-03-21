@@ -29,7 +29,7 @@ A program that detects poor code structure by examining parse trees. I'm
 roughly thinking of this as a literate programming version of Fowler's
 "Refactoring" book. That book would be more useful as a program that points out
 code that can be refactored. Making it operate on parse trees is based on the
-idea that many refactorings are not really language-specific. They're about
-logical concepts that can be described in fairly abstract parse-tree forms, as
-long as you have some shared concepts of scope, variables, functions, and a few
-of the common keywords. That said, this concept might well be crazy-town.
+idea that many refactorings are not language-specific. They're about logical
+concepts that can be described as operations on abstract trees, as long as the
+languages have some shared concept of scope, variables, functions, and a few of
+the common keywords. That said, this concept might well be crazy-town.
