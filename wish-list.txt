@@ -11,6 +11,11 @@ really would require open-source for - what I want is for the patches I design
 to never become unplayable.
 
 
+A better version control system than Git/Mercurial/et al. See
+https://github.com/NateEag/next-vcs for my slow-evolving thoughts on the
+subject.
+
+
 A distributed command-line code review system that integrates cleanly with
 native git, with an optional web UI for ease-of-use. It should support tracking
 a branch's entire history (including rebases) without requiring extra
