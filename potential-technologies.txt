@@ -47,6 +47,16 @@ binary files. Not sure it's ready for prime-time, but it's definitely got
 potential.
 
 
+svneverever is a little tool for getting an overview of an svn repo's structure
+across history. It's handy for preparing to move to a different VCS (like, say,
+git). https://github.com/hartwork/svneverever
+
+
+svn2git is a name used by several projects. The version I'm most interested in
+is this one, used by KDE to split its SVN repos into multiple git repos:
+https://github.com/svn-all-fast-export/svn2git.
+
+
 http://www.bacula.org/en/ is a backup system that Spencer recommends. It's
 open source and fairly industrial-strength, he says.
 
