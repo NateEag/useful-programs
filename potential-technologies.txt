@@ -82,6 +82,11 @@ appears to suck much less than subprocess.
 arrow is an improved(?), unified datetime library for Python. Looks nice.
 
 
+moment.js is a pretty-looking datetime library for JS. It also has a variant
+that supports timezones (though why that's not just a built-in default is
+beyond me).
+
+
 Records is a python module for working with DBs, by the legendary Kenneth
 Reitz. https://github.com/kennethreitz/records
 
