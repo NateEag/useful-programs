@@ -169,7 +169,7 @@ I use a slew of extensions with Chrome:
   * Enhanced History (make history easier to use and search)
   * The Great Suspender (save RAM/CPU by suspending inactive tabs)
   * Custom Javascript for Websites (run arbitrary JS for arbitrary URLs)
-  * Stylish (user stylesheets, now that Chrome doesn't support them any more)
+  * Stylebot (user stylesheets since Chrome dropped built-in support)
   * GhostText (hook up your editor to Chrome textareas and see changes as you type)
   * New tab URL (redirect new tabs to a given URL [so vimium works on new tab])
   * StayFocusd (ration time on timewaster domains)
