@@ -641,7 +641,7 @@ nonetheless. https://github.com/lg/murder
 [Cap'n Proto](https://capnproto.org/) is a very fast cross-language data
 interchange format - as the site says, "think JSON, except binary". It's
 designed by the guy who originally did Google's protobufs, because after doing
-protobufs he wanted to start from a clean slate. Sounds a great tool for
+protobufs he wanted to start from a clean slate. Sounds like a great tool for
 internal distributed systems where scaling really matters.
 
 
