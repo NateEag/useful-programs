@@ -685,3 +685,8 @@ software wherever you need to.
 Known may be the one-click open-source 'personal web presence' package I've
 wished existed, so mortals didn't have to sign away everything to one vendor or
 another: https://withknown.com/
+
+
+sox is a command-line audio processing tool. Seems like it might be roughly the
+imagemagick of the audio world, and I'm not sure why I'd never heard of it
+until now: http://sox.sourceforge.net/
