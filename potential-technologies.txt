@@ -668,6 +668,10 @@ Show a USB-connected Android device's screen on a desktop machine:
 https://github.com/Genymobile/scrcpy
 
 
+FORGE is a bizarre but interesting take on GUI construction, exposing its API
+via a Unix-like filesystem: https://www.fornaxis.org/forge/
+
+
 pass is "the standard unix password manager". I must admit I'm rather tempted
 by it, because my ability to remember an ever-increasing pile of passwords is
 shrinking... I could use git and encrypted plaintext files with a really,
