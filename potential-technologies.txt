@@ -453,6 +453,14 @@ timeago is a jQuery plugin for fuzzy dates in webpages.
 http://timeago.yarp.com/
 
 
+websocketd is a fascinating adapter to let you write WebSocket servers in
+whatever language you like. It uses streaming on stdin/stdout as its interface,
+and says "A line of text represents a new event." Means you'd have to encode
+newlines in output, but then, you'd probably mostly want to use JSON anyway.
+Clever little piece of design and I'm tempted to give it a shot.
+http://websocketd.com/
+
+
 appserver is the new PHP answer to gunicorn and the like - multithreaded
 server written in PHP. http://www.appserver.io/
 
