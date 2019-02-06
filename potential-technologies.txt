@@ -316,6 +316,11 @@ Feather Icons is a collection of open-source SVG icons.
 https://feathericons.com/
 
 
+Inter is not a program, just a potentially-useful dataset. It is an open-source
+font designed for display of small text on small screens (think mobile device
+interfaces): https://github.com/rsms/inter
+
+
 Mailcheck is a JS plugin to check for typos in an email address's domain.
 Should be great for cutting down on signup bounces.
 https://github.com/Kicksend/mailcheck
