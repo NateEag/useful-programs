@@ -352,12 +352,10 @@ users touch up their CSVs before actually uploading records:
 http://www.handsontable.com/
 
 
-scss-lint is a powerful style checker for SCSS.
-https://github.com/brigade/scss-lint
-
-
 stylelint is an alternative style checker for CSS-likes, driven by PostCSS, and
-thus able to understand any dialect PostCSS understands. https://stylelint.io
+thus able to understand any dialect PostCSS understands. You can write your own
+plugins, so it's more analogous to eslint than most of the other ones I've
+bumped into: https://stylelint.io
 
 
 Clusterize.js lets you display huge datasets in a browser with decent
