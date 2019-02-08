@@ -196,9 +196,14 @@ Google Maps has some built-in tech for doing heatmaps:
 https://developers.google.com/maps/documentation/javascript/layers#JSHeatMaps
 
 
-There is finally an open-source library for working with PSDs. It's in Ruby,
-but it's still about the only game in town:
-https://github.com/layervault/psd.rb
+Keypad-Mapper 3 is an Android app for entering OSM house number data. It
+auto-records data for OpenCellID, which seems like it shouldn't be required,
+but it is open source, so I could figure that out myself if I really cared.
+https://github.com/msemm/Keypad-Mapper-3
+
+
+There is finally an open source library for working with PSDs. It's in Ruby, but
+it's still about the only game in town: https://github.com/layervault/psd.rb
 
 
 gitslave is another attempt to solve the submodule problem.
