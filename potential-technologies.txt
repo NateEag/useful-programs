@@ -434,6 +434,10 @@ ruckusing-migrations is a PHP library for handling DB schema migrations.
 https://github.com/ruckus/ruckusing-migrations
 
 
+LMDB claims to be a really fast, really small, low-memory-usage key-value store
+with reliable persistence: https://symas.com/lmdb/
+
+
 Stripe offers an open-source jQuery plugin for building credit card processing
 forms. It seems very solid:
 https://github.com/stripe/jquery.payment
