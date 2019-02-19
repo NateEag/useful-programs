@@ -507,6 +507,10 @@ smartcrop.js is a basic automatic image cropper:
 https://github.com/jwagner/smartcrop.js/
 
 
+OpenSeadragon provides a web-based mobile-friendly viewer for high-resolution
+images, which you can see here: https://openseadragon.github.io/
+
+
 riot.js is a lightweight Model-View-"Presenter" JS framework. Cursory
 inspection, plus reading of its manifesto blog post, makes me think it would
 fit my style very nicely.
