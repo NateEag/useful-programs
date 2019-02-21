@@ -326,6 +326,14 @@ font designed for display of small text on small screens (think mobile device
 interfaces): https://github.com/rsms/inter
 
 
+Chat Over IMAP is more an idea than a specific product. It provides
+decentralized instant messaging over an extended IMAP variant, falling back
+cleanly to email when a contact's mailserver doesn't support the extended
+protocol. If you want e2e encryption, clients can handle that themselves.
+Weird, but a slick idea. Might just fall into the "worse is better" sweet spot
+Richard Gabriel talked about. https://www.coi-dev.org/
+
+
 Mailcheck is a JS plugin to check for typos in an email address's domain.
 Should be great for cutting down on signup bounces.
 https://github.com/Kicksend/mailcheck
