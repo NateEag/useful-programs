@@ -185,3 +185,11 @@ crankd (part of https://github.com/nigelkersten/pymacadmin) is a great way to
 kick off jobs on network connection/loss, on OS X. It'd be nice to write a
 wrapper around it to let me schedule jobs for "when I have a connection again",
 like scheduling git pushes for when I have a connection.
+
+
+iconv is a venerable tool for converting bytestreams from one character
+encoding to another. It is thus useful for diagnosing character encoding
+errors. If you feed it a document to convert from its claimed encoding to
+another one, it will warn you if the document contains invalid byte sequences
+for that encoding. It can also strip such byte sequences or replace them with a
+placeholder of your choosing.
