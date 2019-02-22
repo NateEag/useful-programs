@@ -79,6 +79,10 @@ http://amoffat.github.com/sh/ is a python module for handling subprocesses. It
 appears to suck much less than subprocess.
 
 
+An alternative to the above sh module is plumbum, which was loosely inspired by
+it: https://plumbum.readthedocs.io/en/latest/
+
+
 arrow is an improved(?), unified datetime library for Python. Looks nice.
 
 
