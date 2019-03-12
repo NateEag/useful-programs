@@ -501,6 +501,9 @@ requires POSIX threads) working. It also means I may have some infrastructure
 that might work for my hypothetical PHP code assistance daemon.
 
 
+kdenlive is an open-source video editor. https://kdenlive.org/en/
+
+
 lftp is, apparently, a very powerful open-source file transfer tool.
 http://lftp.yar.ru/
 
