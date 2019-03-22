@@ -271,6 +271,14 @@ Since I'm a JSDoc fan, I'm more intrigued by tern-lint, which is driven by
 JSDoc param types. https://github.com/angelozerr/tern-lint
 
 
+Lunr is a full-text search engine written in JS. It's meant to be a sort of
+simpler little-sibling to Solr, and it certainly appears to fit my aesthetic.
+It would be feasible to use it to bang out search for static sites, by
+generating a blob of JSON to be the search index at build time then using Lunr
+in the browser to build out a search widget that loads that JSON.
+https://lunrjs.com/
+
+
 git-deploy is a robust-looking git-oriented deployment tool I would like to
 try out someday: https://github.com/git-deploy/git-deploy
 
