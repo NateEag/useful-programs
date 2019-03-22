@@ -71,6 +71,10 @@ complex CLI, a la Mercurial, I doubt docopt is good enough.
 http://click.pocoo.org/5/
 
 
+oclif is a JS module for writing CLIs that looks pretty interesting. I'm
+tempted to give it a test drive. https://oclif.io
+
+
 tqdm turns Python iterators into iterators that output a progress prompt.
 https://github.com/noamraph/tqdm
 
