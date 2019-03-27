@@ -538,6 +538,13 @@ OpenSeadragon provides a web-based mobile-friendly viewer for high-resolution
 images, which you can see here: https://openseadragon.github.io/
 
 
+Zebra Crossing is a Java library for doing barcode / QR code recognition, meant
+specifically for use in Android apps (but with a generally-applicable core).
+https://github.com/zxing/zxing/ There is also a mobile app providing bar code
+scanning in the repository, which is available on Google Play at
+https://play.google.com/store/apps/details?id=com.srowen.bs.android
+
+
 riot.js is a lightweight Model-View-"Presenter" JS framework. Cursory
 inspection, plus reading of its manifesto blog post, makes me think it would
 fit my style very nicely.
