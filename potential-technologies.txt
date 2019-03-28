@@ -95,6 +95,11 @@ that supports timezones (though why that's not just a built-in default is
 beyond me).
 
 
+A0 Time Zone Migration is a tool to migrate existing piles of time data based
+on the historical changes to the tzinfo database:
+https://a0.github.io/a0-tzmigration/
+
+
 Records is a python module for working with DBs, by the legendary Kenneth
 Reitz. https://github.com/kennethreitz/records
 
