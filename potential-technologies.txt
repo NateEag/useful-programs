@@ -100,6 +100,14 @@ on the historical changes to the tzinfo database:
 https://a0.github.io/a0-tzmigration/
 
 
+Timezone Boundary Builder does what it says on the tin. It uses OpenStreetMap
+to build a shapefile of the world's timezones.
+https://github.com/evansiroky/timezone-boundary-builder If you just want the
+data for a particular release, it's available on the releases page of the
+GitHub project:
+https://github.com/evansiroky/timezone-boundary-builder/releases
+
+
 Records is a python module for working with DBs, by the legendary Kenneth
 Reitz. https://github.com/kennethreitz/records
 
