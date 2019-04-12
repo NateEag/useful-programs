@@ -163,6 +163,14 @@ PEV is a GUI for looking at PostGres query explanations:
 https://github.com/AlexTatiyants/pev
 
 
+mermaid is a tool for generating diagrams from simple text specifications:
+https://mermaidjs.github.io/
+
+
+Markdeep extends Markdown to include diagram rendering features:
+https://casual-effects.com/markdeep/
+
+
 history.js provides an AJAX history interface that uses new HTML 5 pushState
 when present, and defaults to the classic old # URL changes when not. It even
 lets you store data with each state.
