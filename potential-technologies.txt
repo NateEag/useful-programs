@@ -608,6 +608,14 @@ programmer's hands, but it might still be handy even for a high-level wuss
 like me.
 
 
+nginx 1.13.4 and up have an interesting module called ngx_http_mirror_module:
+https://nginx.org/en/docs/http/ngx_http_mirror_module.html . It looks like a
+great building block to build an HTTP-level variation on the Ruby
+[Scientist](https://github.com/github/scientist) module, so that you can try
+entirely new setups under a production load without impacting production
+results at all. ...that's a terrible explanation but I know what I mean.
+
+
 forceps is a Ruby gem for pulling down a specific entity's data and all
 dependencies, specifically for debugging obscure problems. I don't use Ruby,
 but I've wanted this before, so if I need it again, this might be a place to
