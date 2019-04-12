@@ -182,6 +182,10 @@ purifycss finds CSS that your application isn't using. Not sure how reliable it
 is: https://github.com/purifycss/purifycss
 
 
+Here is an amazingly compact stylesheet that makes basic text websites look
+pretty good on most devices and screen sizes: https://jrl.ninja/etc/1/
+
+
 Twig.js compiles Twig templates into JS. Could be great for AJAX-heavy apps,
 if you have model templates.
 
