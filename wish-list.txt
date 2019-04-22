@@ -5,10 +5,11 @@ source, but closed source is often better than nothing:
 A real-time audio synthesis engine that runs on general-purpose computing
 hardware and intelligently scales up number of simultaneous patches/polyphony
 based on available hardware resources.
-[TessellationOS](http://tessellation.cs.berkeley.edu/) could be an excellent
-OS to implement this system on, if/when it reaches a public release. This one I
+[TessellationOS](http://tessellation.cs.berkeley.edu/) could be an excellent OS
+to implement this system on, if/when it reaches a public release. This one I
 really would require open-source for - what I want is for the patches I design
-to never become unplayable.
+to never become unplayable. You can see my scribbled notes on this concept at
+https://github.com/NateEag/audio-engine.
 
 
 A better version control system than Git/Mercurial/et al. See
