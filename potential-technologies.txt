@@ -797,6 +797,11 @@ shrinking... I could use git and encrypted plaintext files with a really,
 really strong master password to save everything. https://www.passwordstore.org/
 
 
+Android Password Store is an app for working with the password store format
+encouraged by pass (see above). It's open source so you could review it and
+build it yourself: https://github.com/zeapo/Android-Password-Store
+
+
 An interesting alternative to pass is Master Password, which uses a
 finite-state algorithm to generate site-specific passwords from a master
 password, your name, and the site you're visiting. That way, there are no
