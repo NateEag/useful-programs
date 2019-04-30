@@ -177,6 +177,13 @@ lets you store data with each state.
 https://github.com/browserstate/history.js
 
 
+Save Page State is a Chrome plugin that's supposed to let you freeze a page's
+state to disk for further inspection and debugging at a later date. I think I
+may start using it, and perhaps suggest to at least internal people that this
+could be a good thing to add to their bug report tools:
+https://github.com/vrtdev/save-page-state
+
+
 http://qafoolabs.github.io/php-refactoring-browser/ is a refactoring tool for
 PHP. Doesn't seem to be very far along yet, but it might be handy at some
 point, especially if integrated with Emacs and php-mode.
