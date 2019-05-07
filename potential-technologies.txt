@@ -724,6 +724,13 @@ lsof is for more than files. -i will let you scan for what's grabbed a
 port, which is pretty cool.
 
 
+diff2html takes arbitrary diffs and generates HTML files representing them. It
+is quite handy when introducing novices to the diff format, and also for
+showing textual diffs to a reasonably technical normal user (for instance,
+showing tech support the changes in an external website they care about, in
+conjunction with urlwatch).
+
+
 diffscuss is a format for plain-text diff-based code reviews:
 https://github.com/hut8labs/diffscuss
 
