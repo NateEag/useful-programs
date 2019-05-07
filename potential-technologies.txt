@@ -477,14 +477,14 @@ ORM.
 http://www.liquibase.org/
 
 
-Prisma is a decent-looking JS ORM (they claim "ORM alternative", but it doesn't
-look *that* alternative to me). I doubt it holds a candle to SQLAlchemy, but I
-would like to try it some time. https://www.prisma.io
-
-
 sqitch is a Perl tool for doing much the same thing. It looks pretty
 interesting. Like Liquibase, it is *not* tied to a particular framework,
 language, or DB - it just happens to be written in Perl. http://sqitch.org/
+
+
+Prisma is a decent-looking JS ORM (they claim "ORM alternative", but it doesn't
+look *that* alternative to me). I doubt it holds a candle to SQLAlchemy, but I
+would like to try it some time. https://www.prisma.io
 
 
 Alembic is a SQL DB schema migration manager built around SQLAlchemy.
