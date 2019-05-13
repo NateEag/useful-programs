@@ -487,6 +487,19 @@ interesting. Like Liquibase, it is *not* tied to a particular framework,
 language, or DB - it just happens to be written in Perl. http://sqitch.org/
 
 
+https://skeema.io is a declarative database schema manager. It's MySQL-only,
+which I don't like, but the comments from the author on Hacker News suggest
+that he agrees with the instincts I've had for years (and since he worked at FB
+and Tumblr, people are likely to listen to his opinions):
+https://news.ycombinator.com/item?id=19881817
+
+
+https://github.com/k0kubun/sqldef/ looks like it might actually be the
+SQL-based DB schema declaration system I've wanted. Supports MySQL and
+PostGres, so maybe it wouldn't be so hard to port to other DB engines? Note
+that it cannot infer renames, so you have to do those manually.
+
+
 Prisma is a decent-looking JS ORM (they claim "ORM alternative", but it doesn't
 look *that* alternative to me). I doubt it holds a candle to SQLAlchemy, but I
 would like to try it some time. https://www.prisma.io
