@@ -24,6 +24,15 @@ abstractions (like Gerrit's Changeset-Id). Some haphazard design notes on how
 it might be built are at https://github.com/NateEag/git-revue.
 
 
+An open source, local-first calorie tracker (but with optional support for
+hitting servers for specific data). I initially thought of this as an Android
+app, but perhaps it would be better conceived of as a network API (HTTP, I
+assume, because that's what I know) which has both desktop and mobile UIs. The
+mobile UI can't be a pure website because I want to support scanning barcodes
+for branded foods, pulling the data from the free USDA branded food products DB
+(which can be downloaded so you can use it in a local-first app).
+
+
 An introduction to the basics of RESTful APIs in the form of a text-based
 adventure. Support the HTTP verbs as commands, and have the player manipulate
 the world to achieve victory conditions. I need to think of a scenario where
@@ -34,6 +43,12 @@ some sort?
 A program to filter style/static checker results by lines added and changed
 in the diff between commits. In-progress at
 https://github.com/NateEag/diff-check.
+
+
+A really good schema exploration UI, something interactive and immediate that
+is both pretty and functional. In particular, I make heavy use of formal
+comments in my schemas, and none of the ones I've encountered handle that at
+all well.
 
 
 An HTML/CSS/JS style checker that warns you when a construct is not supported
