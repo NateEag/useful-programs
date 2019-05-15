@@ -580,6 +580,10 @@ future project or two, but I should probably compare to GA first so I can be
 aware of what I am or am not missing. http://piwik.org/
 
 
+There is also GoAccess, a modern take on an oldschool idea (parsing webserver
+logs for analytics): https://goaccess.io
+
+
 ExifTool is a Swiss-Army chainsaw for image metadata (command-line tool and
 library). It is, appropriately enough, written in the Swiss-Army chainsaw
 language.
