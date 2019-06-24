@@ -704,6 +704,11 @@ for text.
 http://stedolan.github.io/jq/
 
 
+gron is a command-line tool for flattening JSON so that you can grep it. As the
+authors say, "It eases the exploration of APIs that return large blobs of JSON
+but have terrible documentation." https://github.com/tomnomnom/gron
+
+
 CSS3PIE is a polyfill to make border-radius, background gradients, and maybe
 other things work in IE 6-9: http://css3pie.com/
 
