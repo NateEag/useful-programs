@@ -139,6 +139,14 @@ regular expressions. Consider checking it out someday when I have too much
 free time. http://www.cis.upenn.edu/~cis639/docs/xfst.html
 
 
+Regexp::Debugger is an awesome-looking Perl tool for debugging regular
+expressions. It has a command-line mode of operation, and I imagine with a
+little work you could wrap it up into what I would want, a command something
+like `regex-debug <expression> <string>`. Since PCRE stands for Perl Compatible
+Regular Expressions, that might actually be pretty handy.
+https://metacpan.org/pod/Regexp::Debugger
+
+
 emacsy is a not-yet-existent system for embedding an Emacs-ish approach to
 user interface creation in arbitrary binaries:
 https://github.com/secelis/emacsy
