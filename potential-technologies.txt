@@ -347,10 +347,11 @@ BuildBot is an open-source tool for automating builds, tests, and releases:
 http://buildbot.net/index.html
 
 
-redo is a build dependency manager, performing a job similar to make, ninja,
-and others, described by djb and implemented by many, notably apenwarr. If I
-ever start working on a serious C project, I might use try it out for that:
-https://redo.readthedocs.io/en/latest/
+redo is a build manager, performing a job similar to make, ninja, and others,
+described by djb and implemented by many, notably apenwarr. If I ever start
+dealing with a project that actually has slow build times or difficulty
+managing its dependencies correctly, I should consider trying it:
+https://github.com/apenwarr/redo
 
 
 statsd is an open-source daemon you can use for tracking stats with almost
