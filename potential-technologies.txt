@@ -57,6 +57,16 @@ is this one, used by KDE to split its SVN repos into multiple git repos:
 https://github.com/svn-all-fast-export/svn2git.
 
 
+Fork is a Git GUI that appears to actually be *useful*. It looks like you can
+rebase by dragging commits around, which really would make life easier. Free to
+use (at present) but not OSS: https://fork.dev/
+
+
+GitUp is a Git GUI that was mentioned as an OSS competitor to Fork. It doesn't
+seem quite as full-featured, and it's MacOS only, but it does look a major
+improvement on gitk. https://gitup.co/
+
+
 http://www.bacula.org/en/ is a backup system that Spencer recommends. It's
 open source and fairly industrial-strength, he says.
 
