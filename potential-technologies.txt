@@ -265,6 +265,12 @@ but it is open source, so I could figure that out myself if I really cared.
 https://github.com/msemm/Keypad-Mapper-3
 
 
+Task Nearby is an Android app for location-based reminders. I'm giving it a try
+to see how it works out. Basic functionality is free, advanced features require
+an in-app purchase, but the whole thing is open source (or so this URL claims
+- I guess I could theoretically build it myself and confirm): https://github.com/vermayash8/TaskNearby
+
+
 There is finally an open source library for working with PSDs. It's in Ruby, but
 it's still about the only game in town: https://github.com/layervault/psd.rb
 
