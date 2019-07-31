@@ -240,6 +240,11 @@ I'd like a clean way to install a lot of githooks in parallel. Looks like
 https://github.com/icefox/git-hooks might just do the job.
 
 
+Lefthook is another hook manager. It parallelizes hooks, which is a neat trick.
+I'm not sure it does much else well, but it's worth looking at some time.
+https://github.com/Arkweid/lefthook
+
+
 bower is a front-end package manager, which might be worth investigating.
 https://github.com/bower/bower
 
