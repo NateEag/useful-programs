@@ -332,6 +332,12 @@ GraspJS is a tool for searching and editing JS based on the AST:
 http://www.graspjs.com/
 
 
+SonarQube is a multi-language static analysis and security vulnerability
+detection tool. I've never used it but the idea intrigues me. Definitely smells
+kinda enterprise Java-y, but that doesn't necessarily mean bad.
+https://www.sonarqube.org/
+
+
 For opt-in static typing in JS, there are two major options:
 Flow, which is Facebook's tool. It extends JS syntax, which I dislike. It does
 support comment annotations, but not using JSDoc (for valid reasons, namely
