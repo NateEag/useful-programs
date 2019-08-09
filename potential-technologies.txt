@@ -415,6 +415,10 @@ font designed for display of small text on small screens (think mobile device
 interfaces): https://github.com/rsms/inter
 
 
+Noto is a font from Google that tries to provide glyphs for all major
+languages. Might be useful sometimes. https://www.google.com/get/noto/
+
+
 Chat Over IMAP is more an idea than a specific product. It provides
 decentralized instant messaging over an extended IMAP variant, falling back
 cleanly to email when a contact's mailserver doesn't support the extended
