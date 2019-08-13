@@ -349,7 +349,10 @@ inferring types from JSDoc comments
 Given my dislike for breaking JS tooling by introducing syntax changes, the
 obvious implication is that I should use TypeScript to type-check JS files
 based on JSDoc and add a script to forbid the use of actual TypeScript files.
-Welcome to crazytown.
+Welcome to crazytown. I'll note that documentation.js includes some work on
+making JSDoc and Flow play together tnicely, though it's apparently not seeing
+a lot of maintenance these days
+(https://github.com/documentationjs/documentation).
 
 
 Lunr is a full-text search engine written in JS. It's meant to be a sort of
