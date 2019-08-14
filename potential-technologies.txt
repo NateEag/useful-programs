@@ -324,6 +324,11 @@ Feather Icons is a collection of open-source SVG icons.
 https://feathericons.com/
 
 
+svgo is an SVG optimizer. Good thing to plug into build processes, so you can
+keep full metadata in your project's VCS repository, and have the advantages of
+stripped-down data in your builds. https://github.com/svg/svgo
+
+
 Style guidelines for CSS, which look decent:
 https://github.com/necolas/idiomatic-css
 
