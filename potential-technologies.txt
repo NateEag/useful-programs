@@ -320,6 +320,10 @@ Everyone needs SVG in JS. I'm not exactly sure how this relates to a browser's
 SVG support, but it might come in handy someday regardless: http://svgjs.com/
 
 
+Feather Icons is a collection of open-source SVG icons.
+https://feathericons.com/
+
+
 Style guidelines for CSS, which look decent:
 https://github.com/necolas/idiomatic-css
 
@@ -412,10 +416,6 @@ PHP HTTP request lib that looks promising: http://requests.ryanmccue.info/
 FontForge could be useful if I'm ever trying to design a font.
 That's not too likely, but could happen if I need an icon font.
 http://fontforge.org/
-
-
-Feather Icons is a collection of open-source SVG icons.
-https://feathericons.com/
 
 
 Inter is not a program, just a potentially-useful dataset. It is an open-source
