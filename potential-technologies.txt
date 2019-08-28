@@ -757,6 +757,13 @@ for text.
 http://stedolan.github.io/jq/
 
 
+fx is a command-line tool for exploring and processing JSON. Instead of jq's
+compact-but-arcane syntax, it has you write JS. It features an awesome
+interactive mode, too, complete with the ability to collapse and expand nodes.
+Well worth playing with, and especially handy when paired with curl or HTTPie
+for exploring APIs interactively. https://github.com/antonmedv/fx
+
+
 gron is a command-line tool for flattening JSON so that you can grep it. As the
 authors say, "It eases the exploration of APIs that return large blobs of JSON
 but have terrible documentation." https://github.com/tomnomnom/gron
