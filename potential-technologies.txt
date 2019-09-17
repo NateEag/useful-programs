@@ -67,6 +67,15 @@ seem quite as full-featured, and it's MacOS only, but it does look a major
 improvement on gitk. https://gitup.co/
 
 
+git-heatmap gives you an overview of what files are edited most often in a git
+repository. I expect it would help you zoom in on "interesting" files quickly
+when getting to know a new codebase. https://github.com/jez/git-heatmap
+
+
+git-quick-stats lets you see a handful of interesting statistics on
+a git repo: https://github.com/arzzen/git-quick-stats/
+
+
 http://www.bacula.org/en/ is a backup system that Spencer recommends. It's
 open source and fairly industrial-strength, he says.
 
@@ -897,7 +906,7 @@ build it yourself: https://github.com/zeapo/Android-Password-Store
 
 
 An interesting alternative to pass is Master Password, which uses a
-finite-state algorithm to generate site-specific passwords from a master
+deterministic algorithm to generate site-specific passwords from a master
 password, your name, and the site you're visiting. That way, there are no
 stored files to attack, and you can't lose your password archive to human error
 or device destruction. The only secret is in your head, and you can install the
