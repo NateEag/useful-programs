@@ -220,6 +220,14 @@ parts when I'm arranging, while still eventually getting them into the LilyPond
 format I know and love. https://musescore.org/en
 
 
-MIDI Monitor is an open-source tool for logging all MIDI events on OS X.
+Aria Maestosa is an open source (GPL v2) wxWidgets program for recording and
+working with MIDI files. MIDI sequencing and recording has many uses, but one
+application to which it can be put is exporting raw MIDI data for import into
+MuseScore or Lilypond (importing MIDI is notoriously hard - gotta see which one
+actually does better for me).
+https://ariamaestosa.github.io/ariamaestosa/docs/index.html
+
+
+MIDI Monitor is an open source tool for logging all MIDI events on OS X.
 Probably mainly useful when debugging quirky hardware, but you never know what
 it might come in handy for. https://www.snoize.com/MIDIMonitor/
