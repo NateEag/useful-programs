@@ -193,3 +193,33 @@ errors. If you feed it a document to convert from its claimed encoding to
 another one, it will warn you if the document contains invalid byte sequences
 for that encoding. It can also strip such byte sequences or replace them with a
 placeholder of your choosing.
+
+
+Audacity is a great basic audio recorder and editor, and it's open source.
+Works for basic recording and effects processing (and I've used it for basic
+sampling and audio mangling once or twice, in musical context).
+https://www.audacityteam.org/
+
+
+LilyPond is my preferred musical typesetting software. Entry requires
+near-programmer levels of expertise with text, but its textual format allows me
+to reuse pieces modularly in ways other typesetters I've seen don't. It also
+allows for arbitrary control of layout and displayed typographical elements in
+a way the others just don't. Some think it has more aesthetically pleasing
+default output, which I don't know that I have an opinion on.
+http://lilypond.org/
+
+
+MuseScore is a very different piece of music typesetting software, far
+friendlier to mortals (amazingly friendly, in fact). Its relevance to me is my
+recent discovery that it has a MIDI notation entry system much like the one I
+have fantasized about building for LilyPond. Since MuseScore can export
+MusicXML, and there are several tools out there for converting MusicXML to
+LilyPond format (search `xml2ly`), this might be a faster way for me to notate
+parts when I'm arranging, while still eventually getting them into the LilyPond
+format I know and love. https://musescore.org/en
+
+
+MIDI Monitor is an open-source tool for logging all MIDI events on OS X.
+Probably mainly useful when debugging quirky hardware, but you never know what
+it might come in handy for. https://www.snoize.com/MIDIMonitor/
