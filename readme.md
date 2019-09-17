@@ -223,8 +223,8 @@ format I know and love. https://musescore.org/en
 Aria Maestosa is an open source (GPL v2) wxWidgets program for recording and
 working with MIDI files. MIDI sequencing and recording has many uses, but one
 application to which it can be put is exporting raw MIDI data for import into
-MuseScore or Lilypond (importing MIDI is notoriously hard - gotta see which one
-actually does better for me).
+MuseScore (importing MIDI is notoriously hard - MuseScore seems to do better
+than Lilypond's built-in midi2ly).
 https://ariamaestosa.github.io/ariamaestosa/docs/index.html
 
 
