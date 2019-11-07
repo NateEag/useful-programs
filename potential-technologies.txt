@@ -533,6 +533,11 @@ full-featured. It suggests alternatives for browsers that don't have the
 feature you're looking at.
 
 
+If you're writing web-related development tools, you may find this data from
+MDN useful. It's structured info about most of the features web browsers
+support. https://github.com/mdn/data
+
+
 presto is Facebook's data warehousing backend:
 http://prestodb.io/
 
