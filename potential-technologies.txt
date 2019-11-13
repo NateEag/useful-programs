@@ -203,6 +203,16 @@ Markdeep extends Markdown to include diagram rendering features:
 https://casual-effects.com/markdeep/
 
 
+[Graphviz](https://graphviz.org/) is the 900-pound-gorilla of graph rendering.
+I could see it being very helpful for generating documentation diagrams from
+source code, especially for things like network architecture overviews (I think
+that's what Terraform actually does). Could play into my evolving literate
+programming style nicely, perhaps, as a tool to generate visual clarifications
+about important hunks of code. [Sketchviz](https://sketchviz.com/new) uses it
+with with [roughjs](https://roughjs.com) to render rather charming
+pseudo-hand-drawn documents.
+
+
 history.js provides an AJAX history interface that uses new HTML 5 pushState
 when present, and defaults to the classic old # URL changes when not. It even
 lets you store data with each state.
