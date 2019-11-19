@@ -1,35 +1,19 @@
-I'm a technologist.
+I'm a programmer.
 
-Sometimes, I hear about technology I think I should probably investigate but
-don't have time to look into right away.
+Sometimes, I hear about software tools I think I should probably investigate
+but don't have time to look into right away.
 
 I put those here.
 
 
-dnsmasq is a tool I've wanted for quite a long time. It is a lightweight DNS
-proxy/DHCP server, mainly meant to let you easily assign names to local
-machines behind a NATted firewall. It also makes "lying" about DNS when behind
-the firewall running it pretty easy, something that would have been quite
-handy for PEDG's VPN setup. Shoutout to Josh Turmel for pointing me to it.
-
-
 For AJAXy websites, I rather like the idea of spin.js, as it is much lighter
-than animated GIFs/PNGs (especially if you need multiple sizes), and works in
-a wide array of browsers. http://fgnass.github.com/spin.js/
-
-
-puppet seems like an excellent open-source tool for server configuration
-management, particularly when facing large deployments. I have not yet had a
-chance to try playing with it, but it looks from the outside like it would be
-an excellent tool for keeping multiple server images synchronized.
-http://puppetlabs.com/ The major competition is cfengine, Chef, Ansible, and
-running a package manager for your projects
-(http://news.ycombinator.com/item?id=3091407). Leaning more towards Ansible
-these days - trying it out for something; we'll see what I think.
+than animated GIFs/PNGs (especially if you need multiple sizes), and works in a
+wide array of browsers. http://fgnass.github.com/spin.js/
 
 
 nix is a functional package manager, with most of the features I've been
-wanting. There's also a Linux distro built on top of it.
+wanting. There's also a Linux distro built on top of it. It's an off-the-beaten
+path alternative to something like Ansible that has some lovely properties.
 http://nixos.org/nix/
 
 
@@ -38,18 +22,14 @@ comments, using a more readable, lightweight syntax than JavaDoc.
 http://www.naturaldocs.org/
 
 
-Stripe is a ycombinator startup that does payment processing for geeks:
-https://stripe.com/
-
-
-bup adapts Git's packfile format to a backup system that deduplicates within
-binary files. Not sure it's ready for prime-time, but it's definitely got
-potential.
+bup (https://bup.github.io/) adapts Git's packfile format to a backup system
+that deduplicates within binary files. Not sure it's ready for prime-time, but
+it's definitely got potential.
 
 
 svneverever is a little tool for getting an overview of an svn repo's structure
-across history. It's handy for preparing to move to a different VCS (like, say,
-git). https://github.com/hartwork/svneverever
+across history. It looks handy for preparing to move to a different VCS (like,
+say, git). https://github.com/hartwork/svneverever
 
 
 svn2git is a name used by several projects. The version I'm most interested in

@@ -11,10 +11,31 @@ Markdown these days, and for more complex ones I lean towards reStructuredText.
 Neither's perfect, but it beats reinventing the wheel.
 
 
-For writing software, my preferred language is Python. There are no good GUI
-libraries for Python (or any language), as far as I can tell. I currently use
-wxPython for cross-platform GUI development, in conjuncture with py2exe and
+For writing software, I generally like JS and Python. There are no good native
+GUI libraries for Python (or any language), as far as I can tell. I currently
+use wxPython for cross-platform GUI development, in conjuncture with py2exe and
 py2app. I use InnoSetup to create installers for py2exe packages.
+
+
+Vagrant manages development environments, treating them as a collection of
+1-to-N virtual machines. It's primarily an abstraction over virtualization
+platforms, letting developers think in terms like 'provision my box again',
+'suspend my box', 'restart my box', etc. That mindset can be especially helpful
+when hacking out provisioners to ensure consistency across environments.
+https://www.vagrantup.com/
+
+
+VirtualBox is an open-source app for virtualization. It runs nicely on OS X,
+and is a decent (if slow) way to run MS Windows on Linux/OS X, or to play with
+other operating systems. It's one of Vagrant's supported
+backends. https://www.virtualbox.org/
+
+
+Ansible is a solid answer to the question "How do I define an app's execution
+environment as a readable set of changes relative to a base OS image?" I've
+used it on a few projects now (in conjunction with Vagrant for building
+developer environments) and am generally pretty happy with it (though nix is
+still tempting). https://www.ansible.com/
 
 
 pyenv lets you easily change the active Python version for a given project, and
@@ -42,6 +63,14 @@ integrity by default.
 [Sass's SCSS syntax](http://sass-lang.com/) makes writing CSS less painful, by
 giving you tools to keep things DRY. Be wary of the nesting feature, however -
 it tends to lead to specificity wars.
+
+
+dnsmasq is useful when you need a lightweight DNS server for a local network
+(or if you need to override local DNS on your development machine). It is a
+lightweight DNS proxy/DHCP server, mainly meant to let you easily assign names
+to local machines behind a NATted firewall. It also makes "lying" about DNS
+when behind the firewall running it pretty easy, something that would have been
+quite handy for PEDG's VPN setup.
 
 
 jQuery is handy for simple DOM tweaking on basic pages.
@@ -78,18 +107,14 @@ me to: http://www.httrack.com/ It was more relevant before the days of the SPA
 came upon us.
 
 
-I've decided to standardize my monospaced font, and Anonymous Pro is my
-current victim: http://www.ms-studio.com/FontSales/anonymouspro.html
-
-
-VirtualBox is an open-source app for virtualization. It runs nicely on OS X,
-and is a decent (if slow) way to run MS Windows on Linux/OS X, or to play with
-other operating systems.
+Anonymous Pro is my monospaced font of choice:
+http://www.ms-studio.com/FontSales/anonymouspro.html
 
 
 [linkchecker](http://wummel.github.io/linkchecker/) is a simple tool for
 checking websites for broken links. Excellent thing to run as part of a build
-process, or just nightly against production, if you rely on links to other sites.
+process, or just nightly against production, if you rely on links to other
+sites. I can't live without it for maintaining static documentation websites.
 
 
 ievms is a handy script that does the painful work of making MS's IE testing
@@ -106,19 +131,6 @@ three.
 
 gitlist is a no-muss, no-fuss, nice little git repo viewer. It's in PHP, so
 I've contributed a few patches. https://github.com/klaussilveira/gitlist
-
-
-Vagrant manages development environments, treating them as a collection of
-1-to-N virtual machines. It's primarily an abstraction over virtualization
-platforms, letting developers think in terms like 'provision my box again',
-'suspend my box', 'restart my box', etc. That mindset can be especially helpful
-when hacking out provisioners to ensure consistency across environments.
-https://www.vagrantup.com/
-
-
-Ansible is a solid answer to the question "How do I define an app's execution
-environment as a readable set of changes relative to a base OS image?"
-https://www.ansible.com/
 
 
 https://github.com/aehlke/tag-it is a pretty usable jQuery UI plugin for
