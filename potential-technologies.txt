@@ -76,6 +76,11 @@ git-quick-stats lets you see a handful of interesting statistics on
 a git repo: https://github.com/arzzen/git-quick-stats/
 
 
+In a similar vein, SourceTrail would be useful in exploring new projects if
+they happen to be in one of the languages it supports:
+https://github.com/CoatiSoftware/Sourcetrail
+
+
 http://www.bacula.org/en/ is a backup system that Spencer recommends. It's
 open source and fairly industrial-strength, he says.
 
