@@ -205,6 +205,11 @@ graphing language and offers a D3-based renderer out of the box. Wonder how
 hard it would be to get it to use RoughJS's SVG output?
 
 
+Pencil is an OSS GUI prototyping tool. Kind of thing UX designers tend to want
+to have available. No idea how well it actually works.
+https://pencil.evolus.vn/
+
+
 history.js provides an AJAX history interface that uses new HTML 5 pushState
 when present, and defaults to the classic old # URL changes when not. It even
 lets you store data with each state.
