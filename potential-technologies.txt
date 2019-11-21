@@ -398,6 +398,13 @@ delivers the basics sanely, that'd beat most systems hands-down. Written in
 PHP by an ex-FB employee: http://phabricator.org/
 
 
+Zulip is a threaded real-time OSS chat system, with the goal of using threads
+to enable asynchronous discussion. I'm hoping this is what I've been wanting
+with my vague thoughts that Slack should work more like a real-time forum, and
+I'd love a chance to try it out with a team. Plus, it's OSS.
+https://zulipchat.com/
+
+
 mattermost is an open-source Slack clone, and might well be what I'd pick for
 an in-house chat client, should I ever have need of one:
 http://www.mattermost.org/
