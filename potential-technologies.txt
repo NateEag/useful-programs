@@ -205,6 +205,11 @@ graphing language and offers a D3-based renderer out of the box. Wonder how
 hard it would be to get it to use RoughJS's SVG output?
 
 
+[roughViz](https://github.com/jwilber/roughViz) uses roughJS, D3, and a few
+other things to offer a pretty minimal API for making sketchy, hand-drawn,
+hoverable charts.
+
+
 Pencil is an OSS GUI prototyping tool. Kind of thing UX designers tend to want
 to have available. No idea how well it actually works.
 https://pencil.evolus.vn/
