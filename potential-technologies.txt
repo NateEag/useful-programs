@@ -134,6 +134,10 @@ you need to work with them in Python, unidecode is (probably) a useful module.
 http://www.tablix.org/~avian/git/unidecode.git
 
 
+uni is a CLI tool for getting Unicode info about strings and looking up emoji.
+https://github.com/arp242/uni
+
+
 supervisord is a Python process control system. Might be worth checking out at
 some point. http://supervisord.org/
 
