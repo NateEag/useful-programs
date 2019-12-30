@@ -56,6 +56,12 @@ git-quick-stats lets you see a handful of interesting statistics on
 a git repo: https://github.com/arzzen/git-quick-stats/
 
 
+RosettaGit is an attempt to make a git repo that shows how to do a set of
+common tasks in about every programming language under the sun. It's definitely
+not perfect, but it might be a handy tool for getting a rough sense of how
+things work in a language you haven't seen before. https://rosettagit.org/
+
+
 In a similar vein, SourceTrail would be useful in exploring new projects if
 they happen to be in one of the languages it supports:
 https://github.com/CoatiSoftware/Sourcetrail
