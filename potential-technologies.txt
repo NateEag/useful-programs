@@ -491,6 +491,11 @@ you'd be able to catch a whole lot of mistakes before they were made.
 http://www.webdigi.co.uk/blog/2009/how-to-check-if-an-email-address-exists-without-sending-an-email/
 
 
+xsv is a command-line tool for working with CSVs in a database-like manner. The
+join and stats commands both look especially interesting. Looks like a godsend
+for dealing with DB dumps. https://github.com/BurntSushi/xsv
+
+
 Tool for working with CSVs in PHP, with a particular eye to doing low-memory
 usage imports to a DB: https://github.com/goodby/csv
 
