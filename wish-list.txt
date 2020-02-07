@@ -63,6 +63,9 @@ other. Call it schema-diff. Liquibase has parts of this, but it's not clear to
 me that schema-diff as such is there (see potential-technologies.txt).
 
 
-A two-player web-based implementation of the Kriegspiel chess variant. This
-probably would be easy to write, but it's a low priority, given all the other
-things I want to bang out.
+A system for proving that a specific webpage existed on a particular domain at
+a specific point in time. I'm not sure this is achievable, but it has obvious
+utility when faced with bad-faith editing of websites. Fundamentally, though,
+any mechanism is probably defeatable by a sufficiently-motivated attacker - any
+"I'm trustworthy" signature can be suborned, and any
+consensus-in-the-blockchain 
