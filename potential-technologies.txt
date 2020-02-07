@@ -355,6 +355,12 @@ Feather Icons is a collection of open-source SVG icons.
 https://feathericons.com/
 
 
+xhprof is a hierarchical function-level profiler for PHP. It is explicitly
+meant to handle profiling in production environments. It lives here:
+https://pecl.php.net/package/xhprof It does not support PHP 7, but there is a
+fork that does: https://github.com/tideways/php-xhprof-extension
+
+
 svgo is an SVG optimizer. Good thing to plug into build processes, so you can
 keep full metadata in your project's VCS repository, and have the advantages of
 stripped-down data in your builds. https://github.com/svg/svgo
