@@ -97,6 +97,11 @@ http://www.twig-project.org/ It's strongly inspired by Jinja, which is my
 preferred templating language when in Python contexts: http://jinja.pocoo.org/
 
 
+StreetComplete is an Android app that makes contributing to
+[OpenStreetMap](https://www.openstreetmap.org/) *easy*.
+https://github.com/westnordost/StreetComplete#readme
+
+
 PHP Code Sniffer is a tool for detecting and fixing style violations in PHP
 source code. You can define your own style guidelines.
 https://github.com/squizlabs/PHP_CodeSniffer
