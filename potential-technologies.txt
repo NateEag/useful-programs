@@ -75,6 +75,21 @@ Pipsi is a tool for installing python scripts as standalone commands. Think of
 it as Python's answer to 'npm install -g'. https://github.com/mitsuhiko/pipsi
 
 
+[Terraform](https://www.terraform.io/) is an open-source tool for defining
+cloud-based infrastructure in declarative text files. It's interesting to me.
+Might be usable to implement my ideal literate-programming-ish structure for
+projects, where the central doc declares and documents the DNS records, with
+everything else fanning out off of that (load balancers, DBs, worker nodes, etc
+are all just there to support a domain name, for most network services).
+
+
+[Pulumi](https://www.pulumi.com) is an open-source tool for defining
+cloud-based infrastructure using mainstream declarative programming languages.
+I feel like that's probably worse for the readability, but that's hard to know
+short of trying them both. Definitely feels like it's meant to compete with
+Terraform.
+
+
 Click is a Python module for defining command-line tools via function
 decorators. I prefer docopt for simple tools, but if you're building a more
 complex CLI, a la Mercurial, I doubt docopt is good enough.
