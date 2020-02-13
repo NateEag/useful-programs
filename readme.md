@@ -193,6 +193,7 @@ I use a slew of extensions with Chrome:
   * chrome-pass for hooking Chrome up to the 'pass' CLI password manager
   * Duplicate Tab Helper to cut down on redundant tabs (it could do better but
     it's still a help)
+  * Crackbook Revival (slows down "junkfood" sites, helping you self-ration)
 
 It's handy to open chrome-pass via keyboard shortcut, but it doesn't have one
 built-in. Fortunately, you can set custom keyboard shortcuts for extensions on
