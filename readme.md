@@ -38,6 +38,15 @@ developer environments) and am generally pretty happy with it (though nix is
 still tempting). https://www.ansible.com/
 
 
+Since I mostly use OS X as my desktop, Calendar.app is my calendar app of
+choice. I'd rather have an OSS option that I like, but so far I haven't found
+one. A notable quirk is that if you want to schedule rooms for meetings when
+using Google Calendar as the calendar backend, you'll have to set up contacts
+for meetings using the individual room resource's email addresses and invite
+the room as an attendee, rather than using the Location field:
+https://discussions.apple.com/thread/6824534
+
+
 pyenv lets you easily change the active Python version for a given project, and
 helps you install the versions your apps need:
 https://github.com/yyuu/pyenv
