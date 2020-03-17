@@ -809,6 +809,13 @@ uncss is a node.js tool for finding unused CSS selectors:
 https://github.com/giakki/uncss
 
 
+ForgeFed is a federation protocol for version control services, meant to
+support interoperability for bug reporting, merge requests, and notifications
+across instances. Think of it as an attempt at making something like GitLab
+distributed and pluggable, if you aren't familiar with federation.
+https://forgefed.peers.community/
+
+
 gogs is a git repository viewer written in Go, and thus hopefully installable
 via binary fairly easily: https://github.com/gogits/gogs
 
