@@ -751,6 +751,11 @@ On a similar note, Bourbon/Neat/Bitters is another more-modular SCSS
 framework/toolset: https://neat.bourbon.io/
 
 
+Semantic UI is a CSS/JS framework that's something of an answer to Bootstrap.
+I'm not exactly sure what I think of their "readable English" classes, but they
+certainly are more readable than Bootstrap's. https://semantic-ui.com/
+
+
 Ink is a framework for making responsive HTML emails, and claims to have
 good-looking results everywhere, even in Outlook. Having suffered through some
 HTML email implementation tasks, I'm intrigued.
