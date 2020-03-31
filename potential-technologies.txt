@@ -17,6 +17,12 @@ path alternative to something like Ansible that has some lovely properties.
 http://nixos.org/nix/
 
 
+bashible is a pure-bash Ansible alternative. I'm not sure what I think of it,
+but if I'm ever in a context where introducing Ansible / Python is a hard sell
+and bash is already available...
+https://github.com/mig1984/bashible/blob/master/README.md
+
+
 NaturalDocs is a tool for generating an API reference from source code
 comments, using a more readable, lightweight syntax than JavaDoc.
 http://www.naturaldocs.org/
