@@ -332,6 +332,11 @@ an in-app purchase, but the whole thing is open source (or so this URL claims
 - I guess I could theoretically build it myself and confirm): https://github.com/vermayash8/TaskNearby
 
 
+Owntracks is an open-source location diary. Good for automating things based on
+location, sharing location with friends and family. Not sure I have a use for
+it, but it's worth being aware of, at least. https://owntracks.org/
+
+
 There is finally an open source library for working with PSDs. It's in Ruby, but
 it's still about the only game in town: https://github.com/layervault/psd.rb
 
