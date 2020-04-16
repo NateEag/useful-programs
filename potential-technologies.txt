@@ -612,6 +612,13 @@ presto is Facebook's data warehousing backend:
 http://prestodb.io/
 
 
+Falcon is an open-source, multi-database SQL client. It appears to be an
+Electron app using React, which is either a positive (easy to work on if you're
+a web dev) or a negative (resource-intensive compared to native apps),
+depending who you talk to. A quick test didn't impress me much, but maybe it
+will improve over time.
+
+
 Liquibase is a Java tool for refactoring DBs and tracking the structural
 changes. It is Java, but it might just be the general-purpose tool I've been
 looking for, since you could use it with raw SQL, and without configuring an
