@@ -840,6 +840,14 @@ distributed and pluggable, if you aren't familiar with federation.
 https://forgefed.peers.community/
 
 
+Handshake is an experiment in decentralized domain name system design. The core
+idea appears to be roughly that names are registered via blind auction in a
+cryptocurrency, the winning bidder spends their coins on the name, and that
+transaction winds up embedding the two-year name registration in the
+blockchain. I didn't look closely, so that could be way wrong, but it's an
+interesting idea. https://handshake.org/
+
+
 gogs is a git repository viewer written in Go, and thus hopefully installable
 via binary fairly easily: https://github.com/gogits/gogs
 
