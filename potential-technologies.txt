@@ -1026,6 +1026,11 @@ wished existed, so mortals didn't have to sign away everything to one vendor or
 another: https://withknown.com/
 
 
+Zrhythm is an interesting-looking DAW that's open source and apparently
+highly-scriptable. Audacity is working fine for me so far, but I may want to
+look into this at some point. https://www.zrythm.org/
+
+
 sox is a command-line audio processing tool. Seems like it might be roughly the
 imagemagick of the audio world, and I'm not sure why I'd never heard of it
 until now: http://sox.sourceforge.net/
