@@ -369,6 +369,11 @@ https://phpids.org is a library for auto-detecting and acting on suspicious
 input from end-users. Think of it as a customizable fail2ban sort of tool.
 
 
+Hydra is a network service password brute-forcer. I suspect it would be useful
+in the same vein as sqlmap, for helping people understand how easy it actually
+is to run attacks. https://github.com/vanhauser-thc/thc-hydra
+
+
 http://phpsec.org/projects/phpsecinfo/ is PHP info for security. Not much
 help, but it's something.
 
