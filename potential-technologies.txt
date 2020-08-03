@@ -396,6 +396,13 @@ Feather Icons is a collection of open-source SVG icons.
 https://feathericons.com/
 
 
+lighthouse is a web-app profiler from Google. It grades your app's performance
+based on how someone with a moderately okay phone on 4G would experience it.
+It's built for use within Google Chrome, but the core is in NodeJS and can be
+run from the CLI. Open source, at least for now.
+https://github.com/GoogleChrome/lighthouse#how-does-lighthouse-work
+
+
 xhprof is a hierarchical function-level profiler for PHP. It is explicitly
 meant to handle profiling in production environments. It lives here:
 https://pecl.php.net/package/xhprof It does not support PHP 7, but there is a
