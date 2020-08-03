@@ -1052,3 +1052,9 @@ LabelNation is a piece of command-line software for printing mailing labels.
 I'm not sure I'll ever have need of such a thing, but it's the sort of tool I'm
 prone to even forget exists, so here it is.
 https://www.red-bean.com/labelnation/
+
+
+macintosh.js is a one-shot download that gives you an emulated Quadra for using
+Classic Mac apps. Not sure how well it works, but it looks like it might be a
+lot easier to use than setting up SheepShaver myself.
+https://github.com/felixrieseberg/macintosh.js
