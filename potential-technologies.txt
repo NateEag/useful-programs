@@ -898,6 +898,11 @@ authors say, "It eases the exploration of APIs that return large blobs of JSON
 but have terrible documentation." https://github.com/tomnomnom/gron
 
 
+simdjson is a project to speed up JSON parsers by using SIMD instructions to
+parallelize them intelligently. Has bindings in many languages.
+https://github.com/simdjson/simdjson
+
+
 CSS3PIE is a polyfill to make border-radius, background gradients, and maybe
 other things work in IE 6-9: http://css3pie.com/
 
