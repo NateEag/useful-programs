@@ -38,6 +38,19 @@ developer environments) and am generally pretty happy with it (though nix is
 still tempting). https://www.ansible.com/
 
 
+I use Anki to help me remember things. It's not perfect but it lets me sync
+between my phone and desktop, and it is widely used so it's easy to find
+solutions to problems. I kind of want a more general spaced repetition tool,
+but that should be its own wishlist entry.
+
+
+I sporadically do dual n-back exercises in hopes that it will improve my
+attention span, working memory, and perhaps even fluid intelligence.
+https://dual-n-back.io/ is an open source progressive web app implementation of
+dual n-back I'm starting to use. It even has stats export, which is a nice
+bonus.
+
+
 Since I mostly use OS X as my desktop, Calendar.app is my calendar app of
 choice. I'd rather have an OSS option that I like, but so far I haven't found
 one. A notable quirk is that if you want to schedule rooms for meetings when
