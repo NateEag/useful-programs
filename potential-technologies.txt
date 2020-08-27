@@ -1063,3 +1063,8 @@ macintosh.js is a one-shot download that gives you an emulated Quadra for using
 Classic Mac apps. Not sure how well it works, but it looks like it might be a
 lot easier to use than setting up SheepShaver myself.
 https://github.com/felixrieseberg/macintosh.js
+
+
+Actually Portable Executables (APE) is a clever hack of a binary file format to
+allow a single x86 executable to run on Linux, OS X, and Windows.
+https://justine.storage.googleapis.com/ape.html
