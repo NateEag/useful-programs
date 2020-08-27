@@ -1019,12 +1019,6 @@ FORGE is a bizarre but interesting take on GUI construction, exposing its API
 via a Unix-like filesystem: https://www.fornaxis.org/forge/
 
 
-pass is "the standard unix password manager". I must admit I'm rather tempted
-by it, because my ability to remember an ever-increasing pile of passwords is
-shrinking... I could use git and encrypted plaintext files with a really,
-really strong master password to save everything. https://www.passwordstore.org/
-
-
 Android Password Store is an app for working with the password store format
 encouraged by pass (see above). It's open source so you could review it and
 build it yourself: https://github.com/zeapo/Android-Password-Store

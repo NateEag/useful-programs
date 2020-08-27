@@ -38,6 +38,14 @@ developer environments) and am generally pretty happy with it (though nix is
 still tempting). https://www.ansible.com/
 
 
+pass is "the standard unix password manager". Your secrets are stored locally
+as plain text and versioned in a Git repo, making backup and sharing across
+multiple machines reasonably straightforward. I use this every day. gotta get
+around to working out how to use multiple password repos on a single machine,
+so I can have my work and personal passwords on the same box without
+commingling them. https://www.passwordstore.org/
+
+
 I use Anki to help me remember things. It's not perfect but it lets me sync
 between my phone and desktop, and it is widely used so it's easy to find
 solutions to problems. I kind of want a more general spaced repetition tool,
