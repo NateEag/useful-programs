@@ -1047,6 +1047,9 @@ imagemagick of the audio world, and I'm not sure why I'd never heard of it
 until now: http://sox.sourceforge.net/
 
 
+pigz is a library for parallelizing gzip operations.
+
+
 LabelNation is a piece of command-line software for printing mailing labels.
 I'm not sure I'll ever have need of such a thing, but it's the sort of tool I'm
 prone to even forget exists, so here it is.
