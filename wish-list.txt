@@ -69,3 +69,12 @@ but it has obvious utility when faced with bad-faith editing of websites.
 Fundamentally, though, any mechanism is probably defeatable by a
 sufficiently-motivated attacker - any "I'm trustworthy" signature can be
 suborned, and any consensus-in-the-blockchain
+
+
+A way to force YouTube (and similar) links to open in VLC. Keeping me away from
+their video recommendation algorithms would be a win. It would be possible to
+make a Chrome extension that does this by building a dumb little local server
+and using the native messaging API to fire off "open link in VLC" shell
+commands via the server (maybe using
+[Streamlink](https://github.com/streamlink/streamlink)), which should do the
+job if Chrome is your default browser.
