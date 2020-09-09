@@ -1037,6 +1037,13 @@ wished existed, so mortals didn't have to sign away everything to one vendor or
 another: https://withknown.com/
 
 
+OpenCollective looks like the core tooling I've been vaguely pondering for
+running OSS development teams in a sustainable way. It lets you accept
+donations as a project, then manage when that income gets paid out to team
+members in a transparent way. The tool itself is open source. Looks really
+cool. https://opencollective.com/
+
+
 Zrhythm is an interesting-looking DAW that's open source and apparently
 highly-scriptable. Audacity is working fine for me so far, but I may want to
 look into this at some point. https://www.zrythm.org/
