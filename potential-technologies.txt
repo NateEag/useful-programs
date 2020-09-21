@@ -269,6 +269,12 @@ could be a good thing to add to their bug report tools:
 https://github.com/vrtdev/save-page-state
 
 
+DataDisplayDebugger, or ddd, is a graphical frontend for a range of CLI
+debugging tools, brought to you by the GNU project. It apparently supports some
+interesting views of data structures as graphs.
+https://www.gnu.org/software/ddd/
+
+
 http://qafoolabs.github.io/php-refactoring-browser/ is a refactoring tool for
 PHP. Doesn't seem to be very far along yet, but it might be handy at some
 point, especially if integrated with Emacs and php-mode.
