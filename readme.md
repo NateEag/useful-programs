@@ -46,6 +46,11 @@ so I can have my work and personal passwords on the same box without
 commingling them. https://www.passwordstore.org/
 
 
+https://www.useapassphrase.com is a good site to send people to when they want
+a password generator. It's (currently) open source, it makes a decent case for
+using passphrases rather than passwords, and doesn't obviously log anything.
+
+
 I use Anki to help me remember things. It's not perfect but it lets me sync
 between my phone and desktop, and it is widely used so it's easy to find
 solutions to problems. I kind of want a more general spaced repetition tool,
