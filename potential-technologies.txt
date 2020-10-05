@@ -1075,6 +1075,11 @@ lot easier to use than setting up SheepShaver myself.
 https://github.com/felixrieseberg/macintosh.js
 
 
+Darling is like WINE for Mac OS X. As of 2020-10-05 it seems to be in the "toy"
+phase, but it might just turn into something useful someday.
+https://www.darlinghq.org/
+
+
 Actually Portable Executables (APE) is a clever hack of a binary file format to
 allow a single x86 executable to run on Linux, OS X, and Windows.
 https://justine.storage.googleapis.com/ape.html
