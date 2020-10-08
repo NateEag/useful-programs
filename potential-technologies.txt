@@ -1044,10 +1044,15 @@ another: https://withknown.com/
 
 
 OpenCollective looks like the core tooling I've been vaguely pondering for
-running OSS development teams in a sustainable way. It lets you accept
-donations as a project, then manage when that income gets paid out to team
-members in a transparent way. The tool itself is open source. Looks really
+running OSS development teams in a financially sustainable way. It lets you
+accept donations as a project, then manage when that income gets paid out to
+team members in a transparent way. The tool itself is open source. Looks really
 cool. https://opencollective.com/
+
+
+liberapay is an open source system for accepting recurring donations. Open
+source version of Patreon, is approximately how I read it.
+https://liberapay.com
 
 
 Zrhythm is an interesting-looking DAW that's open source and apparently
