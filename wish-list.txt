@@ -68,7 +68,8 @@ specific point in time with specific contents. I'm not sure this is achievable,
 but it has obvious utility when faced with bad-faith editing of websites.
 Fundamentally, though, any mechanism is probably defeatable by a
 sufficiently-motivated attacker - any "I'm trustworthy" signature can be
-suborned, and any consensus-in-the-blockchain
+suborned, and any consensus-in-the-blockchain can be brute-forced by a 51%
+attack.
 
 
 A way to force YouTube (and similar) links to open in VLC. Keeping me away from
@@ -78,3 +79,12 @@ and using the native messaging API to fire off "open link in VLC" shell
 commands via the server (maybe using
 [Streamlink](https://github.com/streamlink/streamlink)), which should do the
 job if Chrome is your default browser.
+
+
+A program that sends monitoring alerts if specific actions are not taken
+rapidly after SSH logins. The hypothetical name 'tripwire' gets across the idea
+here - if someone gets SSH access to your machines but they don't know your
+tripwire configuration, . I'm not sure it would help much, since deployment
+code has to either include the tripwire config or be whitelisted for tripwire
+somehow. Still, security is all about layers of defense, and this could be
+another one.
