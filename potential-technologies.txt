@@ -909,6 +909,10 @@ parallelize them intelligently. Has bindings in many languages.
 https://github.com/simdjson/simdjson
 
 
+simdjson also contains standalone, fast functions for validating UTF-8 strings:
+https://github.com/simdjson/simdjson/blob/master/doc/basics.md#utf-8-validation-alone
+
+
 CSS3PIE is a polyfill to make border-radius, background gradients, and maybe
 other things work in IE 6-9: http://css3pie.com/
 
