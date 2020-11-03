@@ -783,6 +783,10 @@ https://moot.it/blog/technology/riotjs-the-1kb-mvp-framework.html and
 https://github.com/moot/riotjs/
 
 
+intro.js is a library for making nifty little "walk me through the UI"
+interactive documentation. Supposed to be mobile-friendly. https://introjs.com/
+
+
 clrs.cc is a small CSS (and CSS preprocessor) package giving CSS better default
 colors.
 
