@@ -99,6 +99,13 @@ everything else fanning out off of that (load balancers, DBs, worker nodes, etc
 are all just there to support a domain name, for most network services).
 
 
+ArchiveBox is a self-hosted, MIT-licensed website archiver. Think Internet
+Archive but for your own URLs. I might want to use this for archiving snapshots
+of sites I link to in my own websites, paired with submitting them to the
+Internet Archive itself (as they're prone to go offline or get edited).
+https://archivebox.io/
+
+
 [Pulumi](https://www.pulumi.com) is an open-source tool for defining
 cloud-based infrastructure using mainstream declarative programming languages.
 I feel like that's probably worse for the readability, but that's hard to know
