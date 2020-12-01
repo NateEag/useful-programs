@@ -763,6 +763,19 @@ There is also GoAccess, a modern take on an oldschool idea (parsing webserver
 logs for analytics): https://goaccess.io
 
 
+Prometheus is a server for aggregating and monitoring timeseries data. It has
+amassed support for exporting useful timeseries data from many third-party
+tools, like Nginx, CockroachDB, and HAProxy. It has support for running
+hand-in-hand with Grafana (I guess because Grafana has better visualization
+tools? not sure).
+
+
+Grafana is an open-source analytics tool for querying and alerting on
+arbitrary metrics. If you're trying to institute Google-style error budgets and
+Alerts / Tickets / Logs, it looks like the go-to tool to me.
+https://grafana.com/grafana/
+
+
 ExifTool is a Swiss-Army chainsaw for image metadata (command-line tool and
 library). It is, appropriately enough, written in the Swiss-Army chainsaw
 language.
@@ -974,6 +987,16 @@ conjunction with urlwatch).
 
 diffscuss is a format for plain-text diff-based code reviews:
 https://github.com/hut8labs/diffscuss
+
+
+Reviewable.io is a code review tool that seems to understand how code review
+ought to work. It claims to handle the core concerns that Gerrit gets right
+(and which most others don't), specifically making sure all discussions are
+properly closed, seeing net deltas since the last review (handling rebases and
+amended commits correctly), and batching comments / threading email responses
+correctly. Closed source and only works with GitHub, so probably not gonna be
+my default, but worth being aware of for when I'm working with GitHub (for ex.,
+if working on OSS projects).
 
 
 Sandstorm is a webapp sandboxing system meant to enable the sort of
