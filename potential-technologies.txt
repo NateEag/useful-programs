@@ -262,6 +262,10 @@ other things to offer a pretty minimal API for making sketchy, hand-drawn,
 hoverable charts.
 
 
+Storybook.js is a tool for building out components in an isolated, modular,
+documented, standalone way. Looks interesting. https://storybook.js.org/
+
+
 Pencil is an OSS GUI prototyping tool. Kind of thing UX designers tend to want
 to have available. No idea how well it actually works.
 https://pencil.evolus.vn/
@@ -801,6 +805,11 @@ inspection, plus reading of its manifesto blog post, makes me think it would
 fit my style very nicely.
 https://moot.it/blog/technology/riotjs-the-1kb-mvp-framework.html and
 https://github.com/moot/riotjs/
+
+
+htmx is a framework that might *actually* fulfill Angular.js's arrogant claim
+to be "HTML if it had been designed for writing webapps." It doesn't seem to
+*quite* fit my own aesthetic, but it's closer than most things I've looked at. https://htmx.org/
 
 
 intro.js is a library for making nifty little "walk me through the UI"
