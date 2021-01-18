@@ -33,7 +33,8 @@ code that can be refactored. Making it operate on parse trees is based on the
 idea that many refactorings are not language-specific. They're about logical
 concepts that can be described as operations on abstract trees, as long as the
 languages have some shared concept of scope, variables, functions, and a few of
-the common keywords. That said, this concept might well be crazy-town.
+the common keywords. TreeSitter might be exactly what you need to make this
+work.
 
 
 A two-player web-based implementation of the Kriegspiel chess variant. This
