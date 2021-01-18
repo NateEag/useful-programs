@@ -21,8 +21,9 @@ layer to the "send me an email" interaction, and by offering a mechanism to
 whitelist trusted senders (perhaps driven by signed tokens that are part of the
 submission, and requiring message origin URL on messages that want to bypass
 the captcha, thereby making it possible for the recipient to check with the
-sender for the token's validity). Mailgun is not unrelated to this concept, but
-is not exactly what I'm thinking of: http://www.mailgun.com/
+sender for the token's validity). mnm is a different approach to the same idea
+of replacing SMTP, as it involves both web browsers and new protocols, rather
+than just building the replacement on top of HTTP: https://mnmnotmail.org/
 
 
 A program that detects poor code structure by examining parse trees. I'm
