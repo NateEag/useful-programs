@@ -500,6 +500,9 @@ an in-house chat client, should I ever have need of one:
 http://www.mattermost.org/
 
 
+gremlins.js is a library for fuzz/abuse-testing web app UIs.
+
+
 BuildBot is an open-source tool for automating builds, tests, and releases:
 http://buildbot.net/index.html
 
