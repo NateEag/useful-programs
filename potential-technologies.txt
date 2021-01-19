@@ -213,6 +213,10 @@ an RSS substitute for all those pages that don't offer RSS.
 https://github.com/thp/urlwatch
 
 
+This is an interesting little minimalist monitoring dashboard for websites.
+https://raymii.org/s/software/Bash_HTTP_Monitoring_Dashboard.html
+
+
 fail2ban is something I should probably have installed on any web-facing
 servers I admin. It auto-bans IPs that look like they're abusing the system,
 via iptables. http://www.fail2ban.org/wiki/index.php/Main_Page
