@@ -73,6 +73,15 @@ the room as an attendee, rather than using the Location field:
 https://discussions.apple.com/thread/6824534
 
 
+jp is a CLI tool for querying JSON documents, using the JMESPath query syntax.
+Think of it as a weaker, standardized jq that has the bonus of being compatible
+with the AWS CLI --query syntax. https://github.com/jmespath/jp
+
+
+jmespath.terminal is a nifty little CLI terminal for experimenting with
+JMESPath queries interactively. https://github.com/jmespath/jmespath.terminal
+
+
 pyenv lets you easily change the active Python version for a given project, and
 helps you install the versions your apps need:
 https://github.com/yyuu/pyenv
