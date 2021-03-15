@@ -311,6 +311,10 @@ Here is an amazingly compact stylesheet that makes basic text websites look
 pretty good on most devices and screen sizes: https://jrl.ninja/etc/1/
 
 
+flameshot is a cross-platform, Wayland-compatible screenshot app.
+https://flameshot.org/
+
+
 Twig.js compiles Twig templates into JS. Could be great for AJAX-heavy apps,
 if you have model templates.
 
