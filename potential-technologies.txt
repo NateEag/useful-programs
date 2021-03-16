@@ -940,6 +940,17 @@ for text.
 http://stedolan.github.io/jq/
 
 
+PostGREST is a program for inferring a REST API from a PostGres DB. It looks
+pretty sweet and is way smarter than most approaches to building APIs. If only
+it would generate JSON Schemas from the DB schema...
+https://postgrest.org/en/v7.0.0/
+
+
+json:api is a promising-looking tool for API response structure format.
+Discovered while lost down a rabbithole in postgrest's issue tracker.
+https://jsonapi.org/
+
+
 fx is a command-line tool for exploring and processing JSON. Instead of jq's
 compact-but-arcane syntax, it has you write JS. It features an awesome
 interactive mode, too, complete with the ability to collapse and expand nodes.
