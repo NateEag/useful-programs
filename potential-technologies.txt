@@ -244,6 +244,11 @@ Markdeep extends Markdown to include diagram rendering features:
 https://casual-effects.com/markdeep/
 
 
+Literate is a tool for literate programming that looks pretty promising.
+https://zyedidia.github.io/literate/index.html, and also note this HN thread:
+https://news.ycombinator.com/item?id=26311089
+
+
 [Graphviz](https://graphviz.org/) is the 900-pound-gorilla of graph rendering.
 I could see it being very helpful for generating documentation diagrams from
 source code, especially for things like network architecture overviews (I think
