@@ -46,6 +46,10 @@ so I can have my work and personal passwords on the same box without
 commingling them. https://www.passwordstore.org/
 
 
+pass-git-helper lets you use pass as your git credential store.
+https://github.com/languitar/pass-git-helper
+
+
 https://www.useapassphrase.com is a good site to send people to when they want
 a password generator. It's (currently) open source, it makes a decent case for
 using passphrases rather than passwords, and doesn't obviously log anything.
