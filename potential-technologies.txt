@@ -232,6 +232,12 @@ SchemaCrawler explores schemas, and *also* has extensible support for linting
 schemas. http://sualeh.github.io/SchemaCrawler/
 
 
+MkDocs is a static site generator that uses Markdown for content. Might be a
+good-enough out-of-the-box solution for maintaining project docs as Markdown in
+the project repo? Look closer next time I want to set one of those up.
+https://www.mkdocs.org/
+
+
 PEV is a GUI for looking at PostGres query explanations:
 https://github.com/AlexTatiyants/pev
 
