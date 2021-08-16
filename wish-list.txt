@@ -84,7 +84,7 @@ job if Chrome is your default browser.
 A program that sends monitoring alerts if specific actions are not taken
 rapidly after SSH logins. The hypothetical name 'tripwire' gets across the idea
 here - if someone gets SSH access to your machines but they don't know your
-tripwire configuration, . I'm not sure it would help much, since deployment
-code has to either include the tripwire config or be whitelisted for tripwire
-somehow. Still, security is all about layers of defense, and this could be
-another one.
+tripwire configuration, you'll be alerted rapidly. I'm not sure it would help
+much, since deployment code has to either include the tripwire config or be
+whitelisted for tripwire somehow. Still, security is all about layers of
+defense, and this could be another one.

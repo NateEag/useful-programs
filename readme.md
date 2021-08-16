@@ -301,3 +301,8 @@ https://ariamaestosa.github.io/ariamaestosa/docs/index.html
 MIDI Monitor is an open source tool for logging all MIDI events on OS X.
 Probably mainly useful when debugging quirky hardware, but you never know what
 it might come in handy for. https://www.snoize.com/MIDIMonitor/
+
+
+If you're using a programming language you're not familiar with to achieve one
+task or another, you may find this list of cross-language idioms helpful:
+https://programming-idioms.org
