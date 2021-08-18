@@ -588,6 +588,12 @@ you'd be able to catch a whole lot of mistakes before they were made.
 http://www.webdigi.co.uk/blog/2009/how-to-check-if-an-email-address-exists-without-sending-an-email/
 
 
+libphonenumber is Google's C++ / Java / JS library for validating and working
+with phone numbers. It seems to be pretty exhaustive. It also has a phone
+"Falsehoods Programmers Believe About Phone Numbers" essay in the repo.
+https://github.com/google/libphonenumber/
+
+
 xsv is a command-line tool for working with CSVs in a database-like manner. The
 join and stats commands both look especially interesting. Looks like a godsend
 for dealing with DB dumps. https://github.com/BurntSushi/xsv
