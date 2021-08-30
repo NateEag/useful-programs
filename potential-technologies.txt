@@ -23,6 +23,11 @@ and bash is already available...
 https://github.com/mig1984/bashible/blob/master/README.md
 
 
+zx is an awesome-looking tool for writing scripts using JS, but with support
+for at least bash-style piping. I might well prefer it to bash scripts in
+projects that already use NodeJS: https://github.com/google/zx
+
+
 NaturalDocs is a tool for generating an API reference from source code
 comments, using a more readable, lightweight syntax than JavaDoc.
 http://www.naturaldocs.org/
