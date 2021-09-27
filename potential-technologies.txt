@@ -282,6 +282,11 @@ other things to offer a pretty minimal API for making sketchy, hand-drawn,
 hoverable charts.
 
 
+Theatre is an in-browser animation tool. Looks like it can do at least basic
+SVG animations in the context of React or other frameworks.
+https://github.com/AriaMinaei/theatre
+
+
 Storybook.js is a tool for building out components in an isolated, modular,
 documented, standalone way. Looks interesting. https://storybook.js.org/
 
