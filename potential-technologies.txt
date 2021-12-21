@@ -96,6 +96,10 @@ Pipsi is a tool for installing python scripts as standalone commands. Think of
 it as Python's answer to 'npm install -g'. https://github.com/mitsuhiko/pipsi
 
 
+PDM is a Python package manager that doesn't require creating a virtualev. It
+apparently styles itself as being rather like npm. https://pdm.fming.dev/
+
+
 [Terraform](https://www.terraform.io/) is an open-source tool for defining
 cloud-based infrastructure in declarative text files. It's interesting to me.
 Might be usable to implement my ideal literate-programming-ish structure for
