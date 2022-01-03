@@ -1,5 +1,10 @@
 In here I list software I like to use, mostly for my own benefit.
 
+TODO Move items from here into my Nix config. If I know I use it, I should just
+keep it as part of my baseline environment, and a comment on the package
+requirement is the place to explain *why* I use it. I suppose Android apps
+won't wind up in the Nix config, at any rate.
+
 
 I am an Emacser. It allows me an extremely-customizable, portable environment,
 with quite a lot of power. Also, it's what Dr. Bui told us to use at Penn
@@ -38,18 +43,6 @@ developer environments) and am generally pretty happy with it (though nix is
 still tempting). https://www.ansible.com/
 
 
-pass is "the standard unix password manager". Your secrets are stored locally
-as plain text and versioned in a Git repo, making backup and sharing across
-multiple machines reasonably straightforward. I use this every day. gotta get
-around to working out how to use multiple password repos on a single machine,
-so I can have my work and personal passwords on the same box without
-commingling them. https://www.passwordstore.org/
-
-
-pass-git-helper lets you use pass as your git credential store.
-https://github.com/languitar/pass-git-helper
-
-
 https://www.useapassphrase.com is a good site to send people to when they want
 a password generator. It's (currently) open source, it makes a decent case for
 using passphrases rather than passwords, and doesn't obviously log anything.
@@ -75,11 +68,6 @@ using Google Calendar as the calendar backend, you'll have to set up contacts
 for meetings using the individual room resource's email addresses and invite
 the room as an attendee, rather than using the Location field:
 https://discussions.apple.com/thread/6824534
-
-
-jp is a CLI tool for querying JSON documents, using the JMESPath query syntax.
-Think of it as a weaker, standardized jq that has the bonus of being compatible
-with the AWS CLI --query syntax. https://github.com/jmespath/jp
 
 
 jmespath.terminal is a nifty little CLI terminal for experimenting with
