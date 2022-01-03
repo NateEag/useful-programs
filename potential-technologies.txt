@@ -511,14 +511,10 @@ in the browser to build out a search widget that loads that JSON.
 https://lunrjs.com/
 
 
-git-deploy is a robust-looking git-oriented deployment tool I would like to
-try out someday: https://github.com/git-deploy/git-deploy
-
-
 phabricator looks like a decent, open-source suite of software for
-collaborating on software projects. No groundbreaking ideas, but if it
-delivers the basics sanely, that'd beat most systems hands-down. Written in
-PHP by an ex-FB employee: http://phabricator.org/
+collaborating on software projects. No groundbreaking ideas, but if it delivers
+the basics sanely, that'd beat most systems hands-down. Written in PHP by an
+ex-FB employee: http://phabricator.org/
 
 
 Zulip is a threaded real-time OSS chat system, with the goal of using threads
