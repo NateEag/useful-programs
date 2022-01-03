@@ -28,6 +28,12 @@ for at least bash-style piping. I might well prefer it to bash scripts in
 projects that already use NodeJS: https://github.com/google/zx
 
 
+Loop Habit Tracker is a reasonably minimalist OSS Android habit tracker. It
+seems to support CSV export, so maybe I can use a combination of daily export,
+SyncThing, and static site generation to keep a live record of my habit
+formation attempts on my website. https://github.com/iSoron/uhabits
+
+
 NaturalDocs is a tool for generating an API reference from source code
 comments, using a more readable, lightweight syntax than JavaDoc.
 http://www.naturaldocs.org/
