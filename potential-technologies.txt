@@ -28,12 +28,6 @@ for at least bash-style piping. I might well prefer it to bash scripts in
 projects that already use NodeJS: https://github.com/google/zx
 
 
-Loop Habit Tracker is a reasonably minimalist OSS Android habit tracker. It
-seems to support CSV export, so maybe I can use a combination of daily export,
-SyncThing, and static site generation to keep a live record of my habit
-formation attempts on my website. https://github.com/iSoron/uhabits
-
-
 NaturalDocs is a tool for generating an API reference from source code
 comments, using a more readable, lightweight syntax than JavaDoc.
 http://www.naturaldocs.org/
@@ -74,11 +68,6 @@ seem quite as full-featured, and it's MacOS only, but it does look a major
 improvement on gitk. https://gitup.co/
 
 
-git-heatmap gives you an overview of what files are edited most often in a git
-repository. I expect it would help you zoom in on "interesting" files quickly
-when getting to know a new codebase. https://github.com/jez/git-heatmap
-
-
 git-quick-stats lets you see a handful of interesting statistics on
 a git repo: https://github.com/arzzen/git-quick-stats/
 
@@ -92,14 +81,6 @@ things work in a language you haven't seen before. https://rosettagit.org/
 In a similar vein, SourceTrail would be useful in exploring new projects if
 they happen to be in one of the languages it supports:
 https://github.com/CoatiSoftware/Sourcetrail
-
-
-http://www.bacula.org/en/ is a backup system that Spencer recommends. It's
-open source and fairly industrial-strength, he says.
-
-
-Pipsi is a tool for installing python scripts as standalone commands. Think of
-it as Python's answer to 'npm install -g'. https://github.com/mitsuhiko/pipsi
 
 
 PDM is a Python package manager that doesn't require creating a virtualev. It
@@ -939,6 +920,9 @@ distributed and pluggable, if you aren't familiar with federation.
 https://forgefed.peers.community/
 
 
+Gitea is an OSS clone of GitHub. https://gitea.io/
+
+
 Handshake is an experiment in decentralized domain name system design. The core
 idea appears to be roughly that names are registered via blind auction in a
 cryptocurrency, the winning bidder spends their coins on the name, and that
@@ -957,15 +941,13 @@ https://github.com/gilesbowkett/rewind
 
 
 BFG Repo Cleaner is a simpler way to nuke data from a git repo's history.
-Having used filter-branch for this job a few times, I wouldn't mind giving it
-a spin next time I have to do this.
-http://rtyley.github.io/bfg-repo-cleaner/
+Having used filter-branch for this job a few times, I wouldn't mind giving it a
+spin next time I do this. http://rtyley.github.io/bfg-repo-cleaner/
 
 
 docopt is a standard for turning a command-line app's help string into an
-argument parser. It works for several languages, including Python, Ruby,
-JavaScript, PHP, and Go:
-http://docopt.org/
+argument parser. It has been implemented for several languages, including
+Python, Ruby, JavaScript, PHP, bash, and Go: http://docopt.org/
 
 
 jq is a command-line tool for processing JSON the way you'd use awk/sed/grep
