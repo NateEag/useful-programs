@@ -82,6 +82,7 @@ In a similar vein, SourceTrail would be useful in exploring new projects if
 they happen to be in one of the languages it supports:
 https://github.com/CoatiSoftware/Sourcetrail
 
+
 PDM is a Python package manager that doesn't require creating a virtualev and
 instead lets you store your installed packages locally (per PEP 582). It
 apparently styles itself as being rather like npm. https://pdm.fming.dev/ . I
