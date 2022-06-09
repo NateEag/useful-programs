@@ -12,14 +12,24 @@ State Harrisburg on our first day of COMP 432, and it stuck.
 
 
 I write plaintext files a lot. For simpler ones like readmes I tend to use
-Markdown these days, and for more complex ones I lean towards reStructuredText.
-Neither's perfect, but it beats reinventing the wheel.
+Markdown these days. I have some legacy projects that use reStructuredText due
+to my Python background. Neither's perfect, but it beats reinventing the wheel.
 
 
 For writing software, I generally like JS and Python. There are no good native
-GUI libraries for Python (or any language), as far as I can tell. I currently
-use wxPython for cross-platform GUI development, in conjuncture with py2exe and
-py2app. I use InnoSetup to create installers for py2exe packages.
+GUI libraries for Python (or any language), as far as I can tell. I have used
+wxPython for heavy cross-platform GUI development, in conjuncture with py2exe
+and py2app. I used InnoSetup to create installers for py2exe packages.
+
+
+I've started trying ActivityWatch to keep track of what programs I actually
+spend my time in, both on desktop and mobile devices. I like that it's open
+source and that I can easily export the data for my own analysis. Note, though,
+that as of 2022-06-09 I had to run the latest beta version and start it from
+within Terminal.app to get it to actually work, as well as granting a bunch of
+permissions to the app manually
+(https://github.com/ActivityWatch/activitywatch/issues/334).
+https://activitywatch.net/
 
 
 Vagrant manages development environments, treating them as a collection of
