@@ -184,7 +184,8 @@ easily extensible, sane defaults, but everything configurable. http://eslint.org
 
 
 Google Chrome is my preferred browser (for web development and general
-browsing). It has some awesome built-in features, many of which can be
+browsing), though fear of a browser monoculture has me using Firefox more often
+again. Chrome has some awesome built-in features, many of which can be
 discovered by loading its list of internal URLS in a Chrome tab:
 chrome://chrome-urls/
 
@@ -204,7 +205,7 @@ I use a slew of extensions with Chrome:
     INSTALL IT FROM THE CHROME STORE, as that version has likely-malicious code:
     https://github.com/greatsuspender/thegreatsuspender/issues/1263)
   * Custom Javascript for Websites (run arbitrary JS for arbitrary URLs)
-  * Stylebot (user stylesheets since Chrome dropped built-in support)
+  * Stylus (user stylesheets since Chrome dropped built-in support)
   * GhostText (hook up your editor to Chrome textareas and see changes as you type)
   * New tab URL (redirect new tabs to a given URL [so vimium works on new tab])
   * StayFocusd (ration time on timewaster domains)
