@@ -119,25 +119,6 @@ when behind the firewall running it pretty easy, something that would have been
 quite handy for PEDG's VPN setup.
 
 
-jQuery is handy for simple DOM tweaking on basic pages.
-
-
-For building/maintaining lists in websites where JS is allowed, this jQuery UI
-plugin that modifies multiselects is decent (and I understand the codebase a
-little, having contributed a patch or two):
-https://github.com/crdeutsch/multiselect
-
-
-When mail-client style autocompletion is desired in a web app, a different
-jQuery UI plugin can be useful:
-http://harvesthq.github.com/chosen/
-
-
-When you want to apply pretty, customizable styles to tricky form elements
-(selects, file inputs, radio buttons, and the like), Uniform.js is handy.
-http://uniformjs.com/
-
-
 If you have need of templating in PHP, Twig is the way to go, hands-down:
 http://www.twig-project.org/ It's strongly inspired by Jinja, which is my
 preferred templating language when in Python contexts: http://jinja.pocoo.org/
@@ -180,19 +161,8 @@ just do `iectrl reinstall 8`, and you'll have a working IE 8 VM in a minute or
 three.
 
 
-gitlist is a no-muss, no-fuss, nice little git repo viewer. It's in PHP, so
-I've contributed a few patches. https://github.com/klaussilveira/gitlist
-
-
-https://github.com/aehlke/tag-it is a pretty usable jQuery UI plugin for
-tagging things. Low-muss, low-fuss. In an ideal world, this might be an
-enhancement of a multiselect, a la Chosen, but practically speaking, it works
-just fine.
-
-
-http://digitalbush.com/projects/masked-input-plugin/ is a pretty usable jQuery
-plugin for masking HTML input fields. Not usually a good idea, IMO, but it
-does it about as well as I could ask for.
+gitlist is a no-muss, no-fuss, nice little git repo viewer. I've
+contributed a few patches. https://github.com/klaussilveira/gitlist
 
 
 LogExpert is a decent Windows GUI for viewing/tailing logs:
