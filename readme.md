@@ -183,19 +183,23 @@ eslint is an excellent style-checker and linter for JS. Plugin architecture,
 easily extensible, sane defaults, but everything configurable. http://eslint.org
 
 
-Google Chrome is my preferred browser (for web development and general
-browsing), though fear of a browser monoculture has me using Firefox more often
-again. Chrome has some awesome built-in features, many of which can be
-discovered by loading its list of internal URLS in a Chrome tab:
-chrome://chrome-urls/
+I use Firefox on mobile and NixOS for general browsing, to fight browser
+monoculture, but I do still use Google Chrome for web development at $DAYJOB.
+Chrome has some awesome built-in features, many of which can be discovered by
+loading its list of internal URLS in a Chrome tab: chrome://chrome-urls/
 
 If you frequently use a URL with variable data somewhere in it, try setting it
 up as a custom search engine at the chrome://settings/searchEngines URL. Once
 you have, type your keyword, press tab, then enter the variable data. I think
 of these as 'templated bookmarks'.
 
-I use a slew of extensions with Chrome:
+I use a slew of extensions with Chrome, and am slowly moving towards
+extensions that support both Chrome and FF:
 
+  * Browserpass for `pass` integration (https://github.com/browserpass/browserpass-extension)
+  * Tab Close Gold for auto-closing single-use URLs, like Zoom meeting URLs (https://github.com/mukunku/Tab-Close-Gold)
+  * Stylus (user stylesheets since Chrome dropped built-in support)
+  * New tab URL (redirect new tabs to a given URL [so vimium works on new tab])
   * JSONView (make JSON responses prettier)
   * Edit This Cookie (edit cookies easily)
   * Swap My Cookies (store and exchange different sets of cookies)
@@ -205,14 +209,11 @@ I use a slew of extensions with Chrome:
     INSTALL IT FROM THE CHROME STORE, as that version has likely-malicious code:
     https://github.com/greatsuspender/thegreatsuspender/issues/1263)
   * Custom Javascript for Websites (run arbitrary JS for arbitrary URLs)
-  * Stylus (user stylesheets since Chrome dropped built-in support)
   * GhostText (hook up your editor to Chrome textareas and see changes as you type)
-  * New tab URL (redirect new tabs to a given URL [so vimium works on new tab])
   * StayFocusd (ration time on timewaster domains)
   * chrome-pass for hooking Chrome up to the 'pass' CLI password manager
   * Duplicate Tab Helper to cut down on redundant tabs (it could do better but
     it's still a help)
-  * Crackbook Revival (slows down "junkfood" sites, helping you self-ration)
 
 It's handy to open chrome-pass via keyboard shortcut, but it doesn't have one
 built-in. Fortunately, you can set custom keyboard shortcuts for extensions on
